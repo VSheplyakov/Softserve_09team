@@ -1,0 +1,103 @@
+.top-content {
+    width: 1261px;
+    height: 800px;
+    box-sizing: border-box;
+}
+
+.top-wrapper {
+    width: 1261px;
+    height: 800px;
+    display: block;
+    box-sizing: border-box;
+    border: solid;
+   
+    
+    
+
+}
+
+.header {
+    width: 1120px;
+    height: 150px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    
+}
+
+.bot-wrapper {
+    width: 1120px;
+    height: 400px;
+    box-sizing: border-box;
+    border: 15px 30px;
+    padding: 80px 0px;
+    display: flex;
+}
+
+.grid {
+    width: 1150px;
+    height: 400px;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 60px;
+
+}
+
+.grid-wrapper {
+    width: 354px;
+    height: 399px;
+    box-sizing: border-box;
+    margin: 0px 15px;
+   
+
+}
+
+.pictr1 {
+    box-sizing: border-box;
+    width: 353px;
+    height: 231px;
+  
+    background-image: url(img/mar1.png);
+    
+}
+.pictr2 {
+    box-sizing: border-box;
+    width: 353px;
+    height: 231px;
+    
+    background-image: url(img/mar2.png);
+    
+    
+}
+.pictr3 {
+    box-sizing: border-box;
+    width: 353px;
+    height: 231px;
+    
+    background-image: url(img/mar3.png);
+    
+}
+
+.bot-content {
+    width:1261px;
+    height: 510px;
+    border: solid;
+    box-sizing: border-box;
+}
+.main-bot-content{
+    width: 1201px;
+    height: 480px;
+    box-sizing: border-box;
+    margin: 15px 30px;
+    border: solid;
+    background-color: rgb(25, 225, 225);
+}
+.info-bot-content{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
