@@ -91,21 +91,21 @@
     box-sizing: border-box;
     width: 353px;
     height: 231px;
-    background-image: url(img/mar1.png);
+    background-image: url(/img/mar1.png);
 }
 
 .pictr2 {
     box-sizing: border-box;
     width: 353px;
     height: 231px;
-    background-image: url(img/mar2.png);
+    background-image: url(/img/mar2.png);
 }
 
 .pictr3 {
     box-sizing: border-box;
     width: 353px;
     height: 231px;
-    background-image: url(img/mar3.png);
+    background-image: url(/img/mar3.png);
 }
 
 .number-color {
@@ -135,7 +135,7 @@
     width: auto;
     height: 510px;
     box-sizing: border-box;
-    background-image: url(img/mar4.svg);
+    background-image: url(/img/mar4.svg);
     background-color: rgba(80, 170, 178, 0.98);  
 }
 .main-bot-content {
