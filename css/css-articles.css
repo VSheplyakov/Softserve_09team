@@ -1,16 +1,94 @@
-.articles__content {max-width: 888px;}
-.articles__caption caption {
-    font-size: 13px;
+.articles {
+    box-sizing: border-box;
     font-family: Rubik, sans-serif;
+}
+.articles__content {
+   width: 1200px; ;
+    display: block;
+    box-sizing: border-box;
+    font-family: Rubik, sans-serif;
+    margin: 0 auto;
+}
+.caption {
+    font-size: 13px;
+    font-family: Rubik,sans-serif;
     text-align: center;
     color: var(--caption-color);
+    font-weight: 700;
+    text-transform: uppercase;
 }
-.articles__tittle title {
+.title {
     color: var(--title-color);
+    font-size: 46px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 20px;
 }
-.articles__subTitle subTitle {
+.subTitle {
     color: var(--subTitle-color);
+    text-align: center;
+    font-size: 19px;
+    font-weight: 500;
+    margin-top: 25px;
 }
 .articles__row {
+    box-sizing: border-box;
     display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.articles__column {
+    display: flex;
+    flex-direction: column;
+    font-family: Rubik, sans-serif;
+    width: 399.98px;
+    height: 621.48px;
+    padding: 0px 15px;
+}
+.column__image{
+    width: 369.98px;
+    height: 260.98px;
+}
+.articles__column img {
+    display: block;
+    max-width: 100%;
+}
+.column__caption {
+    font-size: 13px;
+    color: #d0df56;
+    font-weight: 700; 
+    margin-top: 35px;
+    letter-spacing: 1.3px;
+}
+.column__title {
+    color: rgb(6, 42, 77);
+    font-size: 26px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.column__text {
+    color: rgb(84,115,142);
+    font-size: 17px;
+    text-align: justify;
+    font-weight: 400;
+    margin-top: 20px;
+} 
+.column__button {
+    background-color: rgb(208, 223, 86);
+    width: 116.19px;
+    height: 49px;
+    line-height: 49px;
+    text-align: center;
+    font-weight: 700;
+    margin-top: 40px;
+}
+.column__button a {
+    color: #062a4d;
+    text-decoration: none;
+}
+.column__button a:hover {
+    color: white;
+}
+.column__button:hover {
+    background-color: rgb(80, 170, 178);
 }
