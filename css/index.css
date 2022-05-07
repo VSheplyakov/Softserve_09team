@@ -1,5 +1,9 @@
-
-
+@import url(css-articles.css);
+@import url(css-contacts.css);
+*{
+    margin: 0;
+    padding: 0;
+}
 
 /* Marynych start */
 .top-content {
