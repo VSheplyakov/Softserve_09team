@@ -4,19 +4,12 @@
     height: 800px;
     box-sizing: border-box;
 }
-
 .top-wrapper {
     width: 1261px;
     height: 800px;
     display: block;
-    box-sizing: border-box;
-    border: solid;
-   
-    
-    
-
+    box-sizing: border-box;   
 }
-
 .header {
     width: 1120px;
     height: 150px;
@@ -53,53 +46,46 @@
     height: 399px;
     box-sizing: border-box;
     margin: 0px 15px;
-   
-
 }
 
 .pictr1 {
     box-sizing: border-box;
     width: 353px;
     height: 231px;
-  
-    background-image: url(img/mar1.png);
-    
+    background-image: url(img/mar1.png);  
 }
 .pictr2 {
     box-sizing: border-box;
     width: 353px;
     height: 231px;
-    
-    background-image: url(img/mar2.png);
-    
-    
+    background-image: url(img/mar2.png);  
 }
 .pictr3 {
     box-sizing: border-box;
     width: 353px;
     height: 231px;
-    
-    background-image: url(img/mar3.png);
-    
+    background-image: url(img/mar3.png);  
 }
 
 .bot-content {
     width:1261px;
     height: 510px;
-    border: solid;
-    box-sizing: border-box;
+    box-sizing: border-box;   
 }
 .main-bot-content{
-    width: 1201px;
-    height: 480px;
-    box-sizing: border-box;
+    /* width: 1201px;
+    height: 480px; */
+    /* box-sizing: border-box; */
     margin: 15px 30px;
-    border: solid;
-    background-color: rgb(25, 225, 225);
+    background-image: url(img/mar4.svg);
+    background-color: rgba(80, 170, 178, 0.98); 
 }
 .info-bot-content{
+    width: 1201px;
+    height: 480px;
     text-align: center;
     display: flex;
     flex-direction: column;
+    background-color: rgba(80, 170, 178, 0.98);
 }
 /* Marynych end */
