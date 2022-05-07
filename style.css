@@ -1,5 +1,9 @@
+
+
+
 /* Marynych start */
 .top-content {
+    margin: auto;
     width: 1261px;
     height: 800px;
     box-sizing: border-box;
@@ -123,33 +127,29 @@
 }
 
 .bot-content {
-    width: 1261px;
+    margin: auto;
+    width: auto;
     height: 510px;
     box-sizing: border-box;
-    
+    background-image: url(img/mar4.svg);
+    background-color: rgba(80, 170, 178, 0.98);  
 }
-
 .main-bot-content {
-    /* width: 1201px;
-    height: 480px; */
+    justify-content: center;
     display: flex;
     box-sizing: border-box;
-    margin: 15px 30px;
-    background-image: url(img/mar4.svg);
     background-color: rgba(80, 170, 178, 0.98);
-}
 
+}
 .info-bot-content {
     width: 1201px;
-    height: 480px;
+    height: 510px;
     text-align: center;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    background-color: rgba(80, 170, 178, 0.98);
-    font-family: Rubik,sans-serif;
+    font-family: Rubik,sans-serif;  
 }
-
 .consultation-span {
     color: rgb(232, 238, 239);
     font-size: 13px;
@@ -163,8 +163,6 @@
     font-weight:900;
     line-height: 55px;
     color: rgb(255, 255, 255);
-
-
 }
 .info-span {
     color: rgb(232, 238, 239);
