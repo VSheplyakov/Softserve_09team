@@ -1,5 +1,16 @@
 .articles__content {max-width: 888px;}
 .articles__caption caption {
     font-size: 13px;
-    font-family: Rubik,sans-serif;
+    font-family: Rubik, sans-serif;
+    text-align: center;
+    color: var(--caption-color);
+}
+.articles__tittle title {
+    color: var(--title-color);
+}
+.articles__subTitle subTitle {
+    color: var(--subTitle-color);
+}
+.articles__row {
+    display: flex;
 }

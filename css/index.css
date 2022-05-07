@@ -4,6 +4,11 @@
     margin: 0;
     padding: 0;
 }
+:root {
+    --caption-color: rgb(80, 170, 178);
+    --title-color: rgb(6, 42, 77);
+    --subTitle-color: rgb(56,89,119);
+}
 
 /* Marynych start */
 .top-content {
@@ -91,21 +96,21 @@
     box-sizing: border-box;
     width: 353px;
     height: 231px;
-    background-image: url(img/mar1.png);
+    background-image: url(../img/mar1.png);
 }
 
 .pictr2 {
     box-sizing: border-box;
     width: 353px;
     height: 231px;
-    background-image: url(img/mar2.png);
+    background-image: url(../img/mar2.png);
 }
 
 .pictr3 {
     box-sizing: border-box;
     width: 353px;
     height: 231px;
-    background-image: url(img/mar3.png);
+    background-image: url(../img/mar3.png);
 }
 
 .number-color {
