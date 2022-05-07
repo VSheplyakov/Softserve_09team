@@ -140,7 +140,7 @@
     width: auto;
     height: 510px;
     box-sizing: border-box;
-    background-image: url(img/mar4.svg);
+    background-image: url(/img/mar4.svg);
     background-color: rgba(80, 170, 178, 0.98);  
 }
 .main-bot-content {
