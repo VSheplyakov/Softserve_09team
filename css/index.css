@@ -12,6 +12,10 @@
 }
 
 /* Marynych start */
+a {
+     text-decoration: none;
+     color: white;
+     }
 .top-content {
     margin: auto;
     width: 1261px;
