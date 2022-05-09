@@ -6,10 +6,15 @@
 @import url(head.css);
 @import url(about-us.css);
 @import url(header-about-us.css);
+<<<<<<< HEAD
 /*Valeriy Sheplyakov start block*/
 @import url(pricing-page.css);
 @import url(companies-page.css);
 /*Valeriy Sheplyakov end block*/
+=======
+@import url(pricing-page.css);
+@import url(companies-page.css);
+>>>>>>> 3408c7b10a6898f2ed160b06260f43a6b86ea709
 *{
     margin: 0;
     padding: 0;
@@ -224,3 +229,68 @@ a {
     background-color:rgb(6, 42, 77) ;
 }
 /* Marynych end */
+/* Korol Yaryna start */
+.testimonials {
+    background-image: url(/img/testimonials.png);
+}
+.testimonials-subtitle {
+    color: #d0df56;
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1.67;
+}
+.testimonials-title {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 34px !important;
+    line-height: 1.2;
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+}
+.testimonials-text {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.56;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.testimonials-initials {
+    margin-top: 30px;
+    color: #d0df56;
+    font-size: 19px;
+    line-height: 1.5;
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+}
+.gallery {
+    background: rgba(232, 238, 239, 0.91);
+}
+.gallery-subtitle {
+    font-size: 12px;
+    line-height: 1.67;
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+    color: #062a4d;
+    text-transform: uppercase;
+}
+.gallery-h2 {
+    margin-top: 20px;
+    font-size: 34px;
+    line-height: 1.2;
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+    color: #062a4d;
+}
+.gallery-p {
+    margin-top: 25px;
+    font-size: 19px;
+    line-height: 1.5;
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    color: #062a4d;
+}
+/* Korol Yaryna end */
