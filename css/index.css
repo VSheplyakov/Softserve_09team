@@ -6,15 +6,10 @@
 @import url(head.css);
 @import url(about-us.css);
 @import url(header-about-us.css);
-<<<<<<< HEAD
 /*Valeriy Sheplyakov start block*/
 @import url(pricing-page.css);
 @import url(companies-page.css);
 /*Valeriy Sheplyakov end block*/
-=======
-@import url(pricing-page.css);
-@import url(companies-page.css);
->>>>>>> 3408c7b10a6898f2ed160b06260f43a6b86ea709
 *{
     margin: 0;
     padding: 0;
