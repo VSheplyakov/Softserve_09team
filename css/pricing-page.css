@@ -11,19 +11,19 @@ pricing__page-name {
     height: 50px; 
     text-align: center;   
 }
-h1.pricing__title {
+.pricing__title {
     color: #062a4d;
     font-family: 'Rubik', sans-serif;
     font-size: 34px;
     text-align: center;
 }
-h2.pricing__subtitle {
+.pricing__subtitle {
     color: #385977;
     font-family: 'Rubik', sans-serif;
     font-size: 19px;
     text-align: center;
 }
-ul {
+ul.prise_list-block-part {
     list-style: none;
 }
 .pricing__name-door {
