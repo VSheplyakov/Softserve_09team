@@ -11,13 +11,13 @@
     height: 50px; 
     text-align: center;   
 }
-.pricing__h1 {
+.pricing__title {
     color: #062a4d;
     font-family: 'Rubik', sans-serif;
     font-size: 34px;
     text-align: center;
 }
-.pricing__h2 {
+.pricing__subtitle {
     color: #385977;
     font-family: 'Rubik', sans-serif;
     font-size: 19px;
