@@ -13,9 +13,7 @@
     min-width: 320px;
     padding-left: 100px;
     padding-right: 60px;
-
     line-height: 1.5;
-    font-family: Rubic;
     word-wrap: break-word;
     z-index: 1;
 }
@@ -26,6 +24,9 @@
 
 .about__us__top{
     color: rgb(80, 170, 178);
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    font-size: 13px;
     
 }
 
@@ -37,6 +38,8 @@
 
 .about__us__h1 {
     color: rgb(6, 42, 77)
+    
+    
 }
 
 .about__us__p {

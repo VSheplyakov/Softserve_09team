@@ -18,6 +18,9 @@
 }
 .block__experience {
     background-image: var(--content-block-background);
+    background-position-x: 100%, 0%;
+    background-position-y: 43.99%, 0%;
+    background-size: cover, auto;
     background-color: var(--content-block-color);
     margin-right: 20px;
 
@@ -25,18 +28,27 @@
 }
 .block__accountability {
     background-image: var(--content-block-background);
+    background-position-x: 100%, 0%;
+    background-position-y: 43.99%, 0%;
+    background-size: cover, auto;
     background-color: var(--content-block-color);
     margin-right: 20px;
 }
 
 .block__responsiveness {
     background-image: var(--content-block-background);
+    background-position-x: 100%, 0%;
+    background-position-y: 43.99%, 0%;
+    background-size: cover, auto;
     background-color: var(--content-block-color);
     margin-right: 20px;
 }
 
 .block__respectful {
     background-image: var(--content-block-background);
+    background-position-x: 100%, 0%;
+    background-position-y: 43.99%, 0%;
+    background-size: cover, auto;
     background-color: var(--content-block-color);
     margin-right: 20px;
 }
