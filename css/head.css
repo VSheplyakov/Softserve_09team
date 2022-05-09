@@ -1,0 +1,35 @@
+.nav-header, .nav__social__network, .header__menu {
+    display: flex;
+    align-items: center;
+}
+
+
+.header-background {
+    background-color: #e8eeef;
+    margin: 0 30px 0 30px;
+}
+
+.nav-link-page a {
+    color: rgb(56 89 119);
+}
+
+.nav-header {     
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: 0px 126px;    
+}
+
+.head-logo-style {
+    margin: 5px 10px 2px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.head-picter { 
+    background: auto;
+}
+
+.head-logo-img {
+    width: 202px; 
+    height: auto;
+}
