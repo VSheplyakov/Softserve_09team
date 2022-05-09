@@ -3,7 +3,7 @@
     background-color: #e8eeef;
     padding: 80px 0px 0px 0px
 }
-.pricing__page-name {
+pricing__page-name {
     color: #50aab2;
     font-weight: bold;
     font-family: 'Rubik', sans-serif;;
@@ -11,13 +11,13 @@
     height: 50px; 
     text-align: center;   
 }
-.pricing__title {
+h1.pricing__title {
     color: #062a4d;
     font-family: 'Rubik', sans-serif;
     font-size: 34px;
     text-align: center;
 }
-.pricing__subtitle {
+h2.pricing__subtitle {
     color: #385977;
     font-family: 'Rubik', sans-serif;
     font-size: 19px;

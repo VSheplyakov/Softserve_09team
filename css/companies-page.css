@@ -12,12 +12,12 @@
     font-size: 12px;
     height: 50px;
 }
-.companies__title {
+h1.companies__title {
     color: #ffffff;
     font-family: 'Rubik', sans-serif;
     font-size: 40px;
 }
-.companies__subtitle {
+h2.companies__subtitle {
     color: #e8eeef;
     font-family: 'Rubik', sans-serif;
     font-size: 19px;
