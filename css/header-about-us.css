@@ -1,0 +1,64 @@
+.inside__about__us {
+    display: flex;
+    border-color: #fff;
+    border-style: solid;
+    border-width: 7.5px 15px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    
+}
+
+.conteiner__about__us {
+    position: relative;
+    min-width: 320px;
+    padding-left: 100px;
+    padding-right: 60px;
+
+    line-height: 1.5;
+    font-family: Rubic;
+    word-wrap: break-word;
+    z-index: 1;
+}
+
+.banner_about_us {
+    padding-left: 40px;
+    font-family: ;
+}
+
+.about__us__top{
+    color: rgb(80, 170, 178);
+    
+}
+
+.about_us_h3 {
+    margin-top: 25px;
+    color: rgb(6, 42, 77)
+    
+}
+
+.about__us__h1 {
+    color: rgb(6, 42, 77)
+}
+
+.about__us__p {
+    margin-top: 25px;
+    color: rgb(6, 42, 77)
+   
+}
+
+.about__us__icon {
+    display: flex;
+    align-items: center;
+    color: rgb(80,170,178);
+}
+
+.about__us__icon {
+margin-top: 20px;
+   
+}
+.about__us__h4 {
+    padding-left: 10px;
+    padding-right: 20px;
+    
+    
+}
