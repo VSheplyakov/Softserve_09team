@@ -1,0 +1,27 @@
+.gallery {
+    background: rgba(232, 238, 239, 0.91);
+}
+.gallery-subtitle {
+    font-size: 12px;
+    line-height: 1.67;
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+    color: #062a4d;
+    text-transform: uppercase;
+}
+.gallery-h2 {
+    margin-top: 20px;
+    font-size: 34px;
+    line-height: 1.2;
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+    color: #062a4d;
+}
+.gallery-p {
+    margin-top: 25px;
+    font-size: 19px;
+    line-height: 1.5;
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+    color: #062a4d;
+}

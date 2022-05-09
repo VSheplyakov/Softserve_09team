@@ -1,0 +1,36 @@
+.testimonials {
+    background-image: url(/img/testimonials.png);
+}
+.testimonials-subtitle {
+    color: #d0df56;
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 12px;
+    line-height: 1.67;
+}
+.testimonials-title {
+    color: #fff;
+    margin-top: 20px;
+    font-size: 34px !important;
+    line-height: 1.2;
+    font-family: Rubik, sans-serif;
+    font-weight: 700;
+}
+.testimonials-text {
+    margin-top: 25px;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.56;
+    font-family: Rubik, sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+.testimonials-initials {
+    margin-top: 30px;
+    color: #d0df56;
+    font-size: 19px;
+    line-height: 1.5;
+    font-family: Rubik, sans-serif;
+    font-weight: 500;
+}
