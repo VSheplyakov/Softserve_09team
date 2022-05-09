@@ -1,6 +1,3 @@
-
-
-
 .block__groups {
     position: relative;
     border-color: #fff;
@@ -12,10 +9,8 @@
 .content__block__groups {
     display: flex;
     padding: 40px;
-
-  
-
 }
+
 .block__experience {
     background-image: var(--content-block-background);
     background-position-x: 100%, 0%;
@@ -23,9 +18,8 @@
     background-size: cover, auto;
     background-color: var(--content-block-color);
     margin-right: 20px;
-
-
 }
+
 .block__accountability {
     background-image: var(--content-block-background);
     background-position-x: 100%, 0%;
@@ -57,32 +51,30 @@
     padding-left: 20px;
     font-size: 26px;
     line-height: 1.4;
-    font-family: Rubik,sans-serif;
     font-weight: bold;
     text-decoration: none;
     font-style: normal;
     letter-spacing: 0;
     color: rgb(6, 42, 77)
-   
 }
 
 .content__line {
     height: 3px;
     width: 10%;
     background-color: #d0df56;
-    
+
 }
 
 
-.text_content{
+.text_content {
     padding: 20px;
     text-align: left;
     padding-bottom: 73px;
     font-size: 17px;
     line-height: 1.5;
-    font-family: Rubik,sans-serif;
+    font-family: Rubik, sans-serif;
     font-weight: 300;
-    color: rgb(84,115,142);
+    color: rgb(84, 115, 142);
 }
 
 .block__icon {
