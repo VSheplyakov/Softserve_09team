@@ -3,7 +3,14 @@
 @import url(contact-us.css);
 @import url(head.css);
 @import url(about-us.css);
+<<<<<<< HEAD
 @import url(header-about-us.css);
+=======
+/*Valeriy Sheplyakov start block*/
+@import url(pricing-page.css);
+@import url(companies-page.css);
+/*Valeriy Sheplyakov end block*/
+>>>>>>> c198f72107a290267df764ef4d0a667ac323b707
 *{
     margin: 0;
     padding: 0;

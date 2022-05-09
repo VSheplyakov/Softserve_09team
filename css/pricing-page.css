@@ -1,0 +1,85 @@
+/*Valeriy Sheplyakov start block*/
+.pricing__page {
+    background-color: #e8eeef;
+    padding: 80px 0px 0px 0px
+}
+.pricing__page-name {
+    color: #50aab2;
+    font-weight: bold;
+    font-family: 'Rubik', sans-serif;;
+    font-size: 12px;
+    height: 50px; 
+    text-align: center;   
+}
+.pricing__title {
+    color: #062a4d;
+    font-family: 'Rubik', sans-serif;
+    font-size: 34px;
+    text-align: center;
+}
+.pricing__subtitle {
+    color: #385977;
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    text-align: center;
+}
+ul.prise_list-block-part {
+    list-style: none;
+}
+.pricing__name-door {
+ color: #062a4d;
+ font-size: 18px;
+ font-family: 'Rubik', sans-serif;   
+}
+.pricing__line {
+    color: #062a4d;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif; 
+}
+.pricing__from-text {
+    color: #53738e;
+    font-size: 13px;
+    font-family: 'Rubik', sans-serif;  
+}
+.pricing__cost-door {
+    color: #50aab2;
+    font-size: 25px;
+    font-family: 'Rubik', sans-serif; 
+}
+.pricing__about-block {
+    color: #54738e;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif; 
+}
+.pricing__call-ico {
+        background-color: #d0df56;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.pricing__call-ico-img {
+    display: block;
+    margin: auto;
+    padding-top: 4.5px;
+    width: 40px;
+}
+.pricing__contacts-header {
+    color: #062a4d;
+    font-size: 22px;
+    font-family: 'Rubik', sans-serif;  
+}
+.pricing__phone-mail {
+    color: #062a4d;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+}
+.pricing__contact-text-link {
+    color: #50aab2;
+    font-size: 14px;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: none;
+}
+.pricing__contact-text-link:hover {
+    text-decoration: underline;
+}
+/*Valeriy Sheplyakov end block*/
