@@ -1,0 +1,62 @@
+
+
+
+.content__block__groups {
+    display: flex;
+    margin: 15px;
+    
+    
+
+}
+.block__experience {
+    background-image: var(--content-block-background);
+    background-color: var(--content-block-color);
+    margin-right: 10px;
+
+
+}
+.block__accountability {
+    background-image: var(--content-block-background);
+    background-color: var(--content-block-color);
+    margin-right: 10px;
+}
+
+.block__responsiveness {
+    background-image: var(--content-block-background);
+    background-color: var(--content-block-color);
+    margin-right: 10px;
+}
+
+.block__respectful {
+    background-image: var(--content-block-background);
+    background-color: var(--content-block-color);
+    margin-right: 10px;
+}
+
+.heading__text {
+    font-size: 26px;
+    line-height: 1.4;
+    font-family: Rubik,sans-serif;
+    font-weight: 500;
+}
+
+.content__line {
+    height: 3px;
+    width: 10%;
+    background-color: #d0df56;
+}
+
+
+.text_content{
+    padding: 20px;
+    padding-bottom: 73px;
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: Rubik,sans-serif;
+    font-weight: 400;
+    text-decoration: none;
+    font-style: normal;
+    letter-spacing: 0;
+    color: #062a4d;
+    text-transform: none;
+}
