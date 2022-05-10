@@ -1,0 +1,84 @@
+.top-content {
+    margin: auto;
+    width: 1261px;
+    height: 800px;
+    box-sizing: border-box;
+}
+
+.top-wrapper {
+    width: 1261px;
+    height: 800px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 1120px;
+    height: 150px;
+    box-sizing: border-box;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.bot-wrapper {
+    width: 1120px;
+    height: 400px;
+    box-sizing: border-box;
+    border: 15px 30px;
+    padding: 80px 0px;
+    display: flex;
+}
+
+.grid {
+    width: 1150px;
+    height: 400px;
+    display: flex;
+    box-sizing: border-box;
+    margin-top: 50px;
+    margin-left: 60px;
+
+}
+
+.grid-wrapper {
+    width: 354px;
+    height: 399px;
+    box-sizing: border-box;
+    margin: 0px 15px;
+}
+
+.pictr1 {
+    box-sizing: border-box;
+    width: 353px;
+    height: 231px;
+    background-image: url(../img/mar1.png);
+}
+
+.pictr2 {
+    box-sizing: border-box;
+    width: 353px;
+    height: 231px;
+    background-image: url(../img/mar2.png);
+}
+
+.pictr3 {
+    box-sizing: border-box;
+    width: 353px;
+    height: 231px;
+    background-image: url(../img/mar3.png);
+}
+
+.number-color {
+    color: var(--caption-color);
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.picture-about {
+    color: var(--title-color);
+    font-size: 26px;
+    line-height: 36px;
+    font-weight: 700;
+}
