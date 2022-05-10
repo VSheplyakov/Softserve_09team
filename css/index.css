@@ -10,6 +10,7 @@
 @import url(companies-page.css);
 @import url(testimonials.css);
 @import url(gallery.css);
+@import url(footer.css);
 
 *{
     margin: 0;
@@ -44,6 +45,7 @@
 .img {
     display: block;
     width: 100%;
+    height: auto;
 }
 
 a {
