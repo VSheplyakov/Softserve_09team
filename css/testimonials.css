@@ -1,12 +1,17 @@
 .testimonials {
     background-image: url(/img/testimonials.png);
+    padding: 200px 0px 150px 0px;
+    background-repeat: no-repeat;
+    height: fit-content;
 }
 .testimonials-subtitle {
     color: #d0df56;
+    font-family: Rubik, sans-serif;
     font-weight: 700;
     text-transform: uppercase;
     font-size: 12px;
     line-height: 1.67;
+    margin-left: 60%;
 }
 .testimonials-title {
     color: #fff;
@@ -15,6 +20,7 @@
     line-height: 1.2;
     font-family: Rubik, sans-serif;
     font-weight: 700;
+    margin-left: 60%;
 }
 .testimonials-text {
     margin-top: 25px;
@@ -24,6 +30,8 @@
     font-family: Rubik, sans-serif;
     font-weight: 400;
     font-style: italic;
+    max-width: 767px;
+    margin-left: 60%;
 }
 .testimonials-initials {
     margin-top: 30px;
@@ -32,4 +40,5 @@
     line-height: 1.5;
     font-family: Rubik, sans-serif;
     font-weight: 500;
+    margin-left: 60%;
 }
