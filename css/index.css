@@ -29,6 +29,10 @@
     --button-a-color: #062a4d;
     --button-color-hover: #50aab2;
     --button-a-color-hover: #ffffff;
+    --contacts-background-image: url(../img/contacts-background.svg);
+    --contacts-background-color: #062a4d;
+    --contacts-background-color-up: #062a4dfc;
+    --contacts-title-color: #ffffff;
 
 }
 
