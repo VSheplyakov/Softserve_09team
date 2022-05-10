@@ -1,24 +1,21 @@
 .pricing__page-block {
-    background-color: #e8eeef;
+    background-color: var(--content-block-color);
     padding: 80px 0px 0px 0px
 }
 .pricing__page-name {
-    color: #50aab2;
+    color: var(--caption-color);
     font-weight: bold;
-    font-family: 'Rubik', sans-serif;;
     font-size: 12px;
     height: 50px; 
     text-align: center;   
 }
 .pricing__title {
-    color: #062a4d;
-    font-family: 'Rubik', sans-serif;
+    color: var(--title-color);
     font-size: 34px;
     text-align: center;
 }
 .pricing__subtitle {
     color: #385977;
-    font-family: 'Rubik', sans-serif;
     font-size: 19px;
     text-align: center;
 }
@@ -28,31 +25,26 @@
 .pricing__list-item {
     list-style: none;
 }
-
 .pricing__name-door {
- color: #062a4d;
+ color: var(--title-color);
  font-size: 18px;
- font-family: 'Rubik', sans-serif;   
-}
+ }
 .pricing__line {
-    color: #062a4d;
+    color: var(--title-color);
     font-size: 18px;
-    font-family: 'Rubik', sans-serif; 
-}
+}   
 .pricing__from-text {
     color: #53738e;
     font-size: 13px;
     font-family: 'Rubik', sans-serif;  
 }
 .pricing__cost-door {
-    color: #50aab2;
+    color: var(--caption-color);
     font-size: 25px;
-    font-family: 'Rubik', sans-serif; 
 }
 .pricing__about-block {
     color: #54738e;
     font-size: 14px;
-    font-family: 'Rubik', sans-serif; 
 }
 .pricing__call-ico {
     background-color: #d0df56;
@@ -67,19 +59,16 @@
     width: 40px;
 }
 .pricing__contacts-header {
-    color: #062a4d;
+    color: var(--title-color);
     font-size: 22px;
-    font-family: 'Rubik', sans-serif;  
 }
 .pricing__phone-mail {
-    color: #062a4d;
+    color: var(--title-color);
     font-size: 14px;
-    font-family: 'Rubik', sans-serif;
 }
 .pricing__contact-text-link {
-    color: #50aab2;
+    color: var(--caption-color);
     font-size: 14px;
-    font-family: 'Rubik', sans-serif;
     text-decoration: none;
 }
 .pricing__contact-text-link:hover {
