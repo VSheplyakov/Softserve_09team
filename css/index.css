@@ -20,10 +20,15 @@
     --caption-color: #50aab2;
     --title-color: #062a4d;
     --subTitle-color: #385977;
+    --text-color: #54738e;
     --content-block-color: #e8eeef;
     --content-block-background: url(..//img/background_about_us.svg);
     --header-about-us-color: #062a4d;
     --header-about-us-color-top-icon: #50aab2;
+    --button-color: #d0df56;
+    --button-a-color: #062a4d;
+    --button-color-hover: #50aab2;
+    --button-a-color-hover: #ffffff;
 
 }
 
