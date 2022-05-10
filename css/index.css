@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Rubik:wght@300;400;500;600;700&family=Work+Sans:wght@400;500;800&display=swap');
+@import url(common.css);
 @import url(css-articles.css);
 @import url(css-contacts.css);
 @import url(contact-us.css);
@@ -11,7 +10,8 @@
 @import url(testimonials.css);
 @import url(gallery.css);
 @import url(footer.css);
-
+@import url(our-process.css);
+@import url(consultation.css);
 *{
     margin: 0;
     padding: 0;
@@ -38,16 +38,12 @@
     --contact-us-input-background: #e8eeef;
     --contact-us-input-border: #50aab2;
     --contact-us-input-color: #062a4d;
-    
-
 }
-
 .img {
     display: block;
     width: 100%;
     height: auto;
 }
-
 a {
      text-decoration: none;
      color: white;
@@ -59,7 +55,6 @@ a {
     box-sizing: border-box;
     font-family: Rubik, sans-serif;
 }
-
 .top-wrapper {
     width: 1261px;
     height: 800px;
@@ -67,7 +62,6 @@ a {
     box-sizing: border-box;
     font-family: Rubik, sans-serif;
 }
-
 .header {
     width: 1120px;
     height: 150px;
@@ -89,7 +83,6 @@ a {
     letter-spacing: 1.3px;
     line-height: 21.71px;
 }
-
 .header-span1 {
     color: rgb(6, 42, 77);
     font-family: Rubik, sans-serif;
@@ -97,7 +90,6 @@ a {
     font-weight: bolder;
     line-height: 55px;
 }
-
 .header-span2 {
     color: rgb(56, 89, 119);
     font-family: Rubik, sans-serif;
@@ -106,7 +98,6 @@ a {
     font-size: 19px;
     overflow-wrap: break-word;
 }
-
 .bot-wrapper {
     width: 1120px;
     height: 400px;
@@ -115,7 +106,6 @@ a {
     padding: 80px 0px;
     display: flex;
 }
-
 .grid {
     width: 1150px;
     height: 400px;
@@ -123,44 +113,37 @@ a {
     box-sizing: border-box;
     margin-top: 50px;
     margin-left: 60px;
-
 }
-
 .grid-wrapper {
     width: 354px;
     height: 399px;
     box-sizing: border-box;
     margin: 0px 15px;
 }
-
 .pictr1 {
     box-sizing: border-box;
     width: 353px;
     height: 231px;
     background-image: url(../img/mar1.png);
 }
-
 .pictr2 {
     box-sizing: border-box;
     width: 353px;
     height: 231px;
     background-image: url(../img/mar2.png);
 }
-
 .pictr3 {
     box-sizing: border-box;
     width: 353px;
     height: 231px;
     background-image: url(../img/mar3.png);
 }
-
 .number-color {
     color: rgb(80, 170, 178);
     font-family: Rubik, sans-serif;
     font-size: 26px;
     font-weight: 700;
 }
-
 .picture-about {
     color: rgb(6, 42, 77);
     font-size: 26px;
@@ -172,10 +155,8 @@ a {
     color: rgb(84, 115, 142);
     font-size: 17px;
     font-weight: 400;
-    line-height: 25.5px;
-    
+    line-height: 25.5px; 
 }
-
 .bot-content {
     margin: auto;
     width: auto;
@@ -190,7 +171,6 @@ a {
     display: flex;
     box-sizing: border-box;
     background-color: rgba(80, 170, 178, 0.98);
-
 }
 .info-bot-content {
     width: 1201px;
@@ -238,6 +218,3 @@ a {
     background-color:rgb(6, 42, 77) ;
 }
 /* Marynych end */
-
-
-
