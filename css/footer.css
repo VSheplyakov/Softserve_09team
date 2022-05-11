@@ -4,6 +4,7 @@ footer {
 
 .footer-content {
     width: 1200px;
+    margin: auto;
 }
 
 .nav__logo img {
@@ -68,6 +69,10 @@ footer {
     margin: 10px 5px;
 }
 
+.columns a:hover {
+    color: var(--title-color);
+}
+
 .column {
     display: flex;
     flex-direction: column;
@@ -94,6 +99,7 @@ footer {
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+    border-bottom: 1px solid #93a1ad;
 }
 
 .title {
@@ -133,4 +139,24 @@ input {
 #subscribe {
     display: flex;
     flex-direction: column;
+}
+
+.down__left span {
+    display: block;
+    font-size: 15px;
+    color: var(--title-color);
+    font-weight: 500;
+}
+
+.down__right span {
+    display: block;
+    font-size: 15px;
+    color: var(--title-color);
+    font-weight: 500;
+}
+
+.down {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
 }
