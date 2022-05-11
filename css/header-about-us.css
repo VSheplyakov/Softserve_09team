@@ -40,7 +40,5 @@
 .about__us__a {
     padding-left: 10px;
     padding-right: 20px;
-}
-a {
     color: var(--subTitle-color);
 }
