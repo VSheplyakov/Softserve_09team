@@ -1,11 +1,11 @@
 .articles {
     box-sizing: border-box;
     font-family: Rubik, sans-serif;
+    margin-top: 20px;
 }
 
 .articles__content {
     width: 1200px;
-    ;
     display: block;
     box-sizing: border-box;
     font-family: Rubik, sans-serif;

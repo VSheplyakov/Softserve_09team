@@ -5,6 +5,7 @@ footer {
 .footer-content {
     width: 1200px;
     margin: auto;
+    margin-top: 45px;
 }
 
 .nav__logo img {
@@ -13,7 +14,7 @@ footer {
 }
 
 .nav__logo {
-    margin-top: 22px;
+    margin-top: 7px;
 }
 
 .fbLogo img {
@@ -102,7 +103,7 @@ footer {
     border-bottom: 1px solid #93a1ad;
 }
 
-.title {
+.title-footer {
     font-size: 26px;
     font-weight: 500;
     color: var(--title-color);
