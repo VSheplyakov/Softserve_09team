@@ -6,7 +6,8 @@
     padding-top: 80px;
     padding-bottom: 80px;
 }
-@media (max-width: 760px){
+
+@media (max-width: 760px) {
     .inside__about__us {
         flex-direction: column;
         width: 600px;
@@ -14,6 +15,7 @@
         padding: 20px;
     }
 }
+
 .conteiner__about__us {
     position: relative;
     min-width: 320px;

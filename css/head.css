@@ -1,4 +1,6 @@
-.nav-header, .nav__social__network, .header__menu {
+.nav-header,
+.nav__social__network,
+.header__menu {
     display: flex;
     align-items: center;
 }
@@ -16,19 +18,19 @@
 .nav-link-page a {
     color: rgb(56 89 119);
     margin: 0 30px 0 0px;
-    font-size: 100%;  
-    text-decoration: none;    
+    font-size: 100%;
+    text-decoration: none;
 }
 
 .nav-link-page a:hover {
-    color: #062a4d;  
+    color: #062a4d;
     font-weight: bold;
 }
 
-.nav-header {     
+.nav-header {
     padding-top: 30px;
     padding-bottom: 30px;
-    margin: 0px 126px;    
+    margin: 0px 126px;
 }
 
 .head-logo-style {
@@ -37,9 +39,9 @@
     padding-right: 40px;
 }
 
-.fb__header, 
-.inst__header, 
-.tw__header, 
+.fb__header,
+.inst__header,
+.tw__header,
 .youtube__header {
     background-color: #d0df56;
     width: 32px;
@@ -79,13 +81,13 @@
     margin: auto;
 }
 
-.head-picter { 
+.head-picter {
     width: 100%;
     padding-left: 30px;
 }
 
 .head-logo-img {
-    width: 202px; 
+    width: 202px;
     height: auto;
 }
 
@@ -97,4 +99,4 @@
     background-image: url("../img/title-picter.png");
     margin: 0px 30px 15px 30px;
     width: 100%;
-}  
+}

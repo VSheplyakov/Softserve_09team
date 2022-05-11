@@ -1,26 +1,40 @@
-footer {max-width: 2217.33px;}
-.footer-content {width: 1200px;}
+footer {
+    max-width: 2217.33px;
+}
+
+.footer-content {
+    width: 1200px;
+}
+
 .nav__logo img {
     width: 202px;
     height: 32.71px;
 }
+
 .fbLogo img {
     width: 7.12px;
     height: 16.31px;
 }
+
 .instLogo img {
     width: 14.5px;
     height: 14.5px;
 }
+
 .twtLogo img {
     width: 14.5px;
     height: 11.78px;
 }
+
 .youtubeLogo img {
     width: 16.31px;
     height: 11.93px;
 }
-.fbLogo, .instLogo, .twtLogo, .youtubeLogo {
+
+.fbLogo,
+.instLogo,
+.twtLogo,
+.youtubeLogo {
     width: 29px;
     height: 29px;
     background-color: var(--button-color);
@@ -29,13 +43,18 @@ footer {max-width: 2217.33px;}
     align-items: center;
     margin: 5px;
 }
+
 .nav__logoBlock {
     display: flex;
     flex-direction: row;
 }
+
 .columns {
-    display:flex;
+    display: flex;
     flex-direction: row;
 }
-.column {display: flex;
-flex-direction: column;}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}

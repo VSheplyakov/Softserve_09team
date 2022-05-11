@@ -2,76 +2,91 @@
     background-color: var(--content-block-color);
     padding: 80px 0px 0px 0px
 }
+
 .pricing__page-name {
     color: var(--caption-color);
     font-weight: bold;
     font-size: 12px;
-    height: 50px; 
-    text-align: center;   
+    height: 50px;
+    text-align: center;
 }
+
 .pricing__title {
     color: var(--title-color);
     font-size: 34px;
     text-align: center;
 }
+
 .pricing__subtitle {
     color: #385977;
     font-size: 19px;
     text-align: center;
 }
+
 .pricing__list-block-part {
     list-style: none;
 }
+
 .pricing__list-item {
     list-style: none;
 }
+
 .pricing__name-door {
- color: var(--title-color);
- font-size: 18px;
- }
+    color: var(--title-color);
+    font-size: 18px;
+}
+
 .pricing__line {
     color: var(--title-color);
     font-size: 18px;
-}   
+}
+
 .pricing__from-text {
     color: #53738e;
     font-size: 13px;
-    font-family: 'Rubik', sans-serif;  
+    font-family: 'Rubik', sans-serif;
 }
+
 .pricing__cost-door {
     color: var(--caption-color);
     font-size: 25px;
 }
+
 .pricing__about-block {
     color: #54738e;
     font-size: 14px;
 }
+
 .pricing__call-ico {
     background-color: #d0df56;
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
+
 .pricing__call-ico-img {
     display: block;
     margin: auto;
     padding-top: 4.5px;
     width: 40px;
 }
+
 .pricing__contacts-header {
     color: var(--title-color);
     font-size: 22px;
 }
+
 .pricing__phone-mail {
     color: var(--title-color);
     font-size: 14px;
 }
+
 .pricing__contact-text-link {
     color: var(--caption-color);
     font-size: 14px;
     text-decoration: none;
 }
+
 .pricing__contact-text-link:hover {
     text-decoration: underline;
 }
-

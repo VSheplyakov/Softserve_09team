@@ -2,21 +2,25 @@
     box-sizing: border-box;
     font-family: Rubik, sans-serif;
 }
+
 .articles__content {
-   width: 1200px; ;
+    width: 1200px;
+    ;
     display: block;
     box-sizing: border-box;
     font-family: Rubik, sans-serif;
     margin: 0 auto;
 }
+
 .caption {
     font-size: 13px;
-    font-family: Rubik,sans-serif;
+    font-family: Rubik, sans-serif;
     text-align: center;
     color: var(--caption-color);
     font-weight: 700;
     text-transform: uppercase;
 }
+
 .title {
     color: var(--title-color);
     font-size: 46px;
@@ -24,6 +28,7 @@
     font-weight: 700;
     margin-top: 20px;
 }
+
 .subTitle {
     color: var(--subTitle-color);
     text-align: center;
@@ -31,6 +36,7 @@
     font-weight: 500;
     margin-top: 25px;
 }
+
 .articles__row {
     box-sizing: border-box;
     display: flex;
@@ -38,6 +44,7 @@
     margin-top: 50px;
     margin-bottom: 80px;
 }
+
 .articles__column {
     display: flex;
     flex-direction: column;
@@ -46,34 +53,40 @@
     height: 621.48px;
     padding: 0px 15px;
 }
-.column__image{
+
+.column__image {
     width: 369.98px;
     height: 260.98px;
 }
+
 .articles__column img {
     display: block;
     max-width: 100%;
 }
+
 .column__caption {
     font-size: 13px;
     color: var(--button-color);
-    font-weight: 700; 
+    font-weight: 700;
     margin-top: 35px;
     letter-spacing: 1.3px;
 }
+
 .column__title {
     color: var(--title-color);
     font-size: 26px;
     font-weight: 500;
     margin-top: 20px;
 }
+
 .column__text {
     color: var(--text-color);
     font-size: 17px;
     text-align: justify;
     font-weight: 400;
     margin-top: 20px;
-} 
+}
+
 .column__button {
     background-color: var(--button-color);
     width: 116.19px;
@@ -83,13 +96,16 @@
     font-weight: 700;
     margin-top: 40px;
 }
+
 .column__button a {
     color: var(--button-a-color);
     text-decoration: none;
 }
+
 .column__button a:hover {
     color: var(--button-a-color-hover);
 }
+
 .column__button:hover {
     background-color: var(--button-color-hover);
 }
