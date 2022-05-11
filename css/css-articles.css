@@ -1,6 +1,5 @@
 .articles {
     box-sizing: border-box;
-    font-family: Rubik, sans-serif;
     margin-top: 20px;
 }
 
@@ -8,13 +7,11 @@
     width: 1200px;
     display: block;
     box-sizing: border-box;
-    font-family: Rubik, sans-serif;
     margin: 0 auto;
 }
 
 .caption {
     font-size: 13px;
-    font-family: Rubik, sans-serif;
     text-align: center;
     color: var(--caption-color);
     font-weight: 700;
@@ -48,7 +45,6 @@
 .articles__column {
     display: flex;
     flex-direction: column;
-    font-family: Rubik, sans-serif;
     width: 399.98px;
     height: 621.48px;
     padding: 0px 15px;

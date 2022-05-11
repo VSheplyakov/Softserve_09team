@@ -9,11 +9,9 @@
 
 .contacts__content {
     box-sizing: border-box;
-    font-family: Rubik, sans-serif;
     height: 662.833px;
     font-weight: 400;
 }
-
 .content__top {
     display: flex;
     flex-direction: column;
