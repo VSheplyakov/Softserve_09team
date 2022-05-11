@@ -1,6 +1,5 @@
 .background__img {
     background-image: url(../img/page-company-background-image.png);
-    height: 100vh;
     padding: 100px 0px 150px 0px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -10,21 +9,25 @@
     color: var(--caption-color);
     font-weight: 600;
     font-size: 12px;
+    padding-bottom: 30px;
 }
 .companies__title {
     color: #ffffff;
     font-size: 34px;
     font-weight: 600;
+    padding-bottom: 30px;
 }
 .companies__subtitle {
     color: var(--content-block-color);
     font-size: 19px;
     font-weight: 600;
+    padding-bottom: 30px;
 }
 .companies__text {
     color: #C5C5C6;
     font-size: 17px;
     font-weight: 600;
+    padding-bottom: 60px;
 }
 .javascript__partners {
     color: var(--content-block-color);
