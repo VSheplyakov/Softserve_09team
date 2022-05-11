@@ -30,7 +30,8 @@
     width: 26px;
     padding-top: 13px;
     padding-left: 13px;
-}
+    box-sizing: content-box;
+}    
 .pricing_grid-icon {
     border-radius: 100%;
     background-color: #dae1e2;

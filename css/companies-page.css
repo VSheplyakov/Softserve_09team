@@ -2,6 +2,7 @@
     background-image: url(../img/page-company-background-image.png);
     height: 100vh;
     padding: 100px 0px 150px 0px;
+    background-size: contain;
     background-repeat: no-repeat;
 }
 .companies__page-name {
