@@ -1,17 +1,19 @@
 .contactUs {
     display: flex;
     margin-top: 15px;
-    background-color: rgb(230, 238, 245);
+    background-color: var(--background-contact-us);
     justify-content: center;
 }
+
 .contactUs-left {
-    
+    margin-top: 30px;
 }
+
 .contactUs__form input {
     display: block;
-    border-color: #50aab2;
-    background-color: #e8eeef;
-    color: rgb(6, 42, 77);
+    border-color: var(--contact-us-input-border);
+    background-color: var(--contact-us-input-background);
+    color: var(--contact-us-input-color);
     width: 450px;
     height: 52.39px;
     padding-left: 12px;
@@ -19,11 +21,12 @@
     margin: 19px 21px;
     border: none;
 }
+
 .contactUs__form textarea {
     display: block;
-    border-color: #50aab2;
-    background-color: #e8eeef;
-    color: rgb(6, 42, 77);
+    border-color: var(--contact-us-input-border);
+    background-color: var(--contact-us-input-background);
+    color: var(--contact-us-input-color);
     width: 450px;
     height: 150px;
     padding-left: 12px;
@@ -31,23 +34,33 @@
     margin: 19px 21px;
     border: none;
 }
-.map {margin-left: 50px;
+
+.map {
+    margin-left: 50px;
     width: 500px;
-    
+
 }
+
 .contactUs__form {
     width: 570.33px;
     height: 846.771px;
-    background-color: white;
+    background-color: var(--contacts-title-color);
     top: 50px;
     padding-left: 60px;
 }
+
 .submit {
     font-size: 11px;
     font-weight: 700;
     width: 338px;
     height: 49px;
     border: none;
-    background-color: rgb(208, 223, 86);
+    background-color: var(--button-color);
     margin: 19px 21px;
+}
+
+.submit:hover {
+    background-color: var(--button-color-hover);
+    color: var(--button-a-color-hover);
+    cursor: pointer;
 }

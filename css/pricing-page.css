@@ -1,59 +1,59 @@
-.pricing_page-name {
-    color: var( --caption-color);
-    font-size: 12px;
-    margin-top: 80px;
+.pricing__page-block {
+    background-color: var(--content-block-color);
+    padding: 80px 0px 0px 0px
 }
-.pricing_title {
+
+.pricing__page-name {
+    color: var(--caption-color);
+    font-weight: bold;
+    font-size: 12px;
+    height: 50px;
+    text-align: center;
+}
+
+.pricing__title {
     color: var(--title-color);
     font-size: 34px;
 }
-.pricing_subtitle {
-    color: var(--subTitle-color) ;
+
+.pricing__subtitle {
+    color: #385977;
     font-size: 19px;
     margin-bottom: 80px;
 }
 
-.pricing_page-head{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.pricing__list-block-part {
+    list-style: none;
 }
-.pricing_grid-container {
-    display: grid;
-    grid-template-columns: 50px 150px auto 30px 60px;
-    grid-template-rows: 25px 25px;
-    grid-column-gap: 3px;
-    min-width: 300px; 
-    gap: 2px;
+
+.pricing__list-item {
+    list-style: none;
 }
-.pricing_icon {
-    width: 26px;
-    padding-top: 11px;
-    padding-left: 11px;
-}
-.pricing_grid-icon {
-    border-radius: 100%;
-    background-color: #dae1e2;
-    grid-area: 1 / 2 /3 /1;
-}
-.pricing_grid-name {
+
+.pricing__name-door {
     color: var(--title-color);
-    font-size: 19px;
-    font-weight: 600;
-    }
-.pricing_grid-from {
-    color: #54738e;
-    font-size: 13px;
-    padding-top: 10px;
+    font-size: 18px;
 }
-.pricing_grid-cost {
+
+.pricing__line {
+    color: var(--title-color);
+    font-size: 18px;
+}
+
+.pricing__from-text {
+    color: #53738e;
+    font-size: 13px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.pricing__cost-door {
     color: var(--caption-color);
     font-size: 25px;
     padding-bottom: 8px;
     margin-bottom: 8px;
 }
-.pricing_grid-about {
-    grid-area: 2 / 2 / 5 /6;
+
+.pricing__about-block {
     color: #54738e;
     font-size: 14px;
     font-weight:600;
@@ -79,34 +79,40 @@
     flex-direction: row;
     justify-content: center;
 }
+
 .pricing__call-ico {
     background-color: #d0df56;
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
+
 .pricing__call-ico-img {
     display: block;
     margin: auto;
     padding-top: 4.5px;
     width: 40px;
 }
+
 .pricing__contacts-header {
     color: #062a4d;
     font-size: 22px;
     font-weight: 600; 
 }
+
 .pricing__phone-mail {
     color: #062a4d;
     font-size: 14px;
     font-weight: 600;
 }
+
 .pricing__contact-text-link {
     color: #50aab2;
     font-size: 14px;
     text-decoration: none;
     font-weight: 600;
 }
+
 .pricing__contact-text-link:hover {
     text-decoration: underline;
 }

@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Rubik:wght@300;400;500;600;700&family=Work+Sans:wght@400;500;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: 'Rubik', sans-serif;
+    --caption-color: rgb(80, 170, 178);
+    --title-color: rgb(6, 42, 77);
+    --subTitle-color: rgb(56, 89, 119);
+    --content-block-color: rgb(232, 238, 239);
+    --content-block-background: url(..//img/background-about-us.svg);
+    --header-about-us-color: rgb(6, 42, 77);
+    --p-color: rgb(84, 115, 142);
+
+}
+
+.img {
+    display: block;
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color: var(--title-color);
+    font-size: 46px;
+    font-weight: 700;
+}
+
+h2 {
+    color: var(--subTitle-color);
+    font-size: 19px;
+    font-weight: 500;
+}
+
+h3 {
+    color: var(--caption-color);
+    font-weight: 800;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+    line-height: 21.71px;
+}
+
+p {
+    color: var(--p-color);
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 25.5px;
+}
