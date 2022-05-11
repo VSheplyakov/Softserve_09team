@@ -6,8 +6,38 @@
 }
 
 .content__block__groups {
-    display: flex;
-    padding: 40px;
+    display: grid;
+    padding: 20px;
+}
+@media (min-width: 769px) {
+    .content__block__groups {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 770px) {
+    .content__block__groups {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+
+@media (min-width: 960px) {
+    .content__block__groups {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+}
+@media (min-width: 961px) {
+    .content__block__groups {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 10px;
+    }
 }
 
 .block__experience {

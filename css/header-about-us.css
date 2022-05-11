@@ -6,7 +6,14 @@
     padding-top: 80px;
     padding-bottom: 80px;
 }
-
+@media (max-width: 760px){
+    .inside__about__us {
+        flex-direction: column;
+        width: 600px;
+        justify-items: flex-start;
+        padding: 20px;
+    }
+}
 .conteiner__about__us {
     position: relative;
     min-width: 320px;
@@ -27,7 +34,6 @@
 
 .about__us__p {
     margin-top: 25px;
-
 }
 
 .about__us__icon {
