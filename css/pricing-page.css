@@ -1,92 +1,112 @@
-.pricing__page-block {
-    background-color: var(--content-block-color);
-    padding: 80px 0px 0px 0px
-}
-
-.pricing__page-name {
-    color: var(--caption-color);
-    font-weight: bold;
+.pricing_page-name {
+    color: var( --caption-color);
     font-size: 12px;
-    height: 50px;
-    text-align: center;
+    margin-top: 80px;
 }
-
-.pricing__title {
+.pricing_title {
     color: var(--title-color);
     font-size: 34px;
-    text-align: center;
 }
-
-.pricing__subtitle {
-    color: #385977;
+.pricing_subtitle {
+    color: var(--subTitle-color) ;
     font-size: 19px;
-    text-align: center;
+    margin-bottom: 80px;
 }
 
-.pricing__list-block-part {
-    list-style: none;
+.pricing_page-head{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-
-.pricing__list-item {
-    list-style: none;
+.pricing_grid-container {
+    display: grid;
+    grid-template-columns: 50px 150px auto 30px 60px;
+    grid-template-rows: 25px 25px;
+    grid-column-gap: 3px;
+    min-width: 300px; 
+    gap: 2px;
 }
-
-.pricing__name-door {
+.pricing_icon {
+    width: 26px;
+    padding-top: 11px;
+    padding-left: 11px;
+}
+.pricing_grid-icon {
+    border-radius: 100%;
+    background-color: #dae1e2;
+    grid-area: 1 / 2 /3 /1;
+}
+.pricing_grid-name {
     color: var(--title-color);
-    font-size: 18px;
-}
-
-.pricing__line {
-    color: var(--title-color);
-    font-size: 18px;
-}
-
-.pricing__from-text {
-    color: #53738e;
+    font-size: 19px;
+    font-weight: 600;
+    }
+.pricing_grid-from {
+    color: #54738e;
     font-size: 13px;
-    font-family: 'Rubik', sans-serif;
+    padding-top: 10px;
 }
-
-.pricing__cost-door {
+.pricing_grid-cost {
     color: var(--caption-color);
     font-size: 25px;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
-
-.pricing__about-block {
+.pricing_grid-about {
+    grid-area: 2 / 2 / 5 /6;
     color: #54738e;
     font-size: 14px;
+    font-weight:600;
 }
-
+.pricing_grid-line {
+    border-bottom: solid 1px #062a4d;
+    margin-bottom: 3px;
+}
+.pricing {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 50px;
+}
+@media (max-width: 768px) {
+    .pricing {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 60px;
+    }
+}
+.pricing__contacts {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
 .pricing__call-ico {
     background-color: #d0df56;
     width: 50px;
     height: 50px;
     border-radius: 50%;
 }
-
 .pricing__call-ico-img {
     display: block;
     margin: auto;
     padding-top: 4.5px;
     width: 40px;
 }
-
 .pricing__contacts-header {
-    color: var(--title-color);
+    color: #062a4d;
     font-size: 22px;
+    font-weight: 600; 
 }
-
 .pricing__phone-mail {
-    color: var(--title-color);
+    color: #062a4d;
     font-size: 14px;
+    font-weight: 600;
 }
-
 .pricing__contact-text-link {
-    color: var(--caption-color);
+    color: #50aab2;
     font-size: 14px;
     text-decoration: none;
+    font-weight: 600;
 }
-
 .pricing__contact-text-link:hover {
     text-decoration: underline;
 }
