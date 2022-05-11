@@ -11,6 +11,10 @@ footer {
     height: 32.71px;
 }
 
+.nav__logo {
+    margin-top: 22px;
+}
+
 .fbLogo img {
     width: 7.12px;
     height: 16.31px;
@@ -41,12 +45,13 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 5px;
+    margin: 1px;
 }
 
 .nav__logoBlock {
     display: flex;
     flex-direction: row;
+    justify-content: flex-start;
 }
 
 .columns {
@@ -54,7 +59,78 @@ footer {
     flex-direction: row;
 }
 
+.columns a {
+    display: flex;
+    flex-direction: row;
+    color: #93a1ad;
+    font-size: 15px;
+    font-weight: 500;
+    margin: 10px 5px;
+}
+
 .column {
+    display: flex;
+    flex-direction: column;
+    margin: 0px 15px;
+}
+
+.leftSide span {
+    display: block;
+    color: #93a1ad;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25.05px;
+    margin: 20px 0;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    width: 210px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.title {
+    font-size: 26px;
+    font-weight: 500;
+    color: var(--title-color);
+    border-bottom: 2px solid var(--button-color);
+    margin-bottom: 15px;
+}
+
+#submit {
+    background-color: var(--button-color);
+    color: var(--title-color);
+    font-weight: 700;
+    font-size: 11px;
+    border: none;
+    width: 210px;
+    height: 49px;
+}
+
+#submit:hover {
+    color: var(--button-a-color-hover);
+    background-color: var(--button-color-hover);
+    cursor: pointer;
+}
+
+input {
+    display: block;
+    width: 210px;
+    height: 52.4px;
+    padding: 19px 21px;
+    margin: 12px 0px 0px;
+    border: none;
+    background-color: var(--content-block-color);
+}
+
+#subscribe {
     display: flex;
     flex-direction: column;
 }
