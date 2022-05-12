@@ -1,9 +1,9 @@
 footer {
-    max-width: 2217.33px;
+    width: 100%
 }
 
 .footer-content {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
     margin-top: 45px;
 }
@@ -96,6 +96,18 @@ footer {
     justify-content: center;
     align-items: flex-start;
     border-bottom: 1px solid #93a1ad;
+}
+@media (max-width: 900px) {
+    .leftSide {align-items: center;
+    margin-bottom: 5px;}
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .columns{
+       display: grid;
+       grid-template-columns: 50% 50%;
+    }
 }
 
 .title-footer {
