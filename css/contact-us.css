@@ -9,6 +9,7 @@
 @media (max-width:950px) {
     .contactUs {
         flex-direction: column;
+        align-items: center;
     }
 }
 

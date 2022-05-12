@@ -1,9 +1,9 @@
 footer {
-    max-width: 2217.33px;
+    width: 100%
 }
 
 .footer-content {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto;
     margin-top: 45px;
 }
@@ -96,6 +96,16 @@ footer {
     justify-content: center;
     align-items: flex-start;
     border-bottom: 1px solid #93a1ad;
+}
+@media (max-width: 900px) {
+    .nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .columns{
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .title-footer {
