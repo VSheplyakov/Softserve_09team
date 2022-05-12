@@ -1,20 +1,20 @@
 .block__groups {
     position: relative;
     border-color: #fff;
-    border-style: solid;
-    border-width: 7.5px 15px;
+    
 }
 
 .content__block__groups {
     display: grid;
-    padding: 20px;
+   
 }
 
-@media (min-width: 769px) {
+@media (min-width: 320px) {
     .content__block__groups {
         display: grid;
         grid-template-columns: 1fr;
-        gap: 10px;
+        gap: 40px;
+        
     }
 }
 
@@ -22,7 +22,7 @@
     .content__block__groups {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 10px;
+        
     }
 }
 
@@ -38,44 +38,44 @@
     .content__block__groups {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        gap: 10px;
+        column-gap: 30px;
     }
 }
 
 .block__experience {
-    background-image: var(--content-block-background);
+    background-image: url(../img/background-about-us.svg);
     background-position-x: 100%, 0%;
     background-position-y: 43.99%, 0%;
     background-size: cover, auto;
-    background-color: var(--content-block-color);
-    margin-right: 20px;
+    background-color: rgba(232, 238, 239, 0.68);
+    
 }
 
 .block__accountability {
-    background-image: var(--content-block-background);
+    background-image: url(../img/background-about-us.svg);
     background-position-x: 100%, 0%;
     background-position-y: 43.99%, 0%;
     background-size: cover, auto;
-    background-color: var(--content-block-color);
-    margin-right: 20px;
+    background-color: rgba(232, 238, 239, 0.68);
+    
 }
 
 .block__responsiveness {
-    background-image: var(--content-block-background);
+    background-image: url(../img/background-about-us.svg);
     background-position-x: 100%, 0%;
     background-position-y: 43.99%, 0%;
     background-size: cover, auto;
-    background-color: var(--content-block-color);
-    margin-right: 20px;
+    background-color: rgba(232, 238, 239, 0.68);
+    
 }
 
 .block__respectful {
-    background-image: var(--content-block-background);
+    background-image: url(../img/background-about-us.svg);
     background-position-x: 100%, 0%;
     background-position-y: 43.99%, 0%;
     background-size: cover, auto;
-    background-color: var(--content-block-color);
-    margin-right: 20px;
+    background-color: rgba(232, 238, 239, 0.68);
+    
 }
 
 .heading__text {
