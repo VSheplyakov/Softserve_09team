@@ -1,5 +1,6 @@
 .gallery {
     background: var(--content-block-color);
+    text-align: center;
 }
 
 .gallery-subtitle {
