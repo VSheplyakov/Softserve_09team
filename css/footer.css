@@ -98,13 +98,14 @@ footer {
     border-bottom: 1px solid #93a1ad;
 }
 @media (max-width: 900px) {
+    .leftSide {align-items: center;}
     .nav{
         flex-direction: column;
         align-items: center;
     }
     .columns{
-        flex-direction: column;
-        align-items: center;
+       display: grid;
+       grid-template-columns: 50% 50%;
     }
 }
 
