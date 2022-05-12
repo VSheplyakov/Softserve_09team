@@ -42,7 +42,10 @@
     font-weight: 500;
     margin-left: 60%;
 }
-.column__button {
+.testimonials__button {
     margin-left: 60%;
     font-size: 11px;
+    width: 176px;
+    height: 60px;
+    background-color: #d0df56;
 }
