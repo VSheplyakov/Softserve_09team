@@ -3,6 +3,13 @@
     margin-top: 15px;
     background-color: var(--background-contact-us);
     justify-content: center;
+    max-width: 1200px;
+    margin: auto;
+}
+@media (max-width:950px) {
+    .contactUs {
+        flex-direction: column;
+    }
 }
 
 .contactUs-left {
