@@ -42,3 +42,7 @@
     font-weight: 500;
     margin-left: 60%;
 }
+.column__button {
+    margin-left: 60%;
+    font-size: 11px;
+}
