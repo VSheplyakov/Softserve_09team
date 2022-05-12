@@ -51,8 +51,6 @@
 
 .contacts__column {
     background-color: var(--contacts-title-color);
-    min-width: 369.979px;
-    min-height: 302.438px;
     margin-left: 15px;
     margin-right: 15px;
     margin-bottom: 15px;

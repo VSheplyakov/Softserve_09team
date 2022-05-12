@@ -46,7 +46,7 @@
     display: flex;
     align-items: center;
     margin-top: 50px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
 }
 @media (max-width:1050px) {
 .articles__row {
@@ -58,24 +58,20 @@
     max-width: 100%;
 }
 }
-@media (max-width:500px) {
+@media (max-width:800px) {
         .articles__row {
         display: grid;
         grid-template-columns: 1fr;
+        
     }
+    .articles__column {margin-bottom: 5px;}
 }
 
 .articles__column {
     display: flex;
     flex-direction: column;
-    min-width: 399.98px;
     padding: 0px 15px;
 }
-
-.column__image {
-    min-width: 369.98px;
-}
-
 .articles__column img {
     display: block;
     max-width: 100%;
