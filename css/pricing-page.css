@@ -42,7 +42,8 @@
 .pricing_grid-icon {
     border-radius: 100%;
     background-color: #dae1e2;
-    grid-area: 1 / 2 /3 /1;
+    grid-area: 1 / 2 / 3 / 1;
+    
 }
 .pricing_grid-name {
     color: var(--title-color);
