@@ -9,6 +9,7 @@
     font-weight: 700;
     color: var(--caption-color);
     text-transform: uppercase;
+    padding-top: 60px;
 }
 
 .gallery-h2 {
@@ -25,4 +26,11 @@
     line-height: 1.5;
     font-weight: 500;
     color: var(--p-color);
+    padding-bottom: 50px;
+}
+
+.picture-example1 {
+    max-width: 100%;
+    height: auto;
+    padding-bottom: 50px;
 }
