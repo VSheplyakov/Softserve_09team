@@ -14,6 +14,7 @@
     .map iframe {
         width: 100%;
     }
+    .map {width: 90%;}
 }
 
 .contactUs-left {
@@ -25,7 +26,7 @@
     border-color: var(--contact-us-input-border);
     background-color: var(--contact-us-input-background);
     color: var(--contact-us-input-color);
-    width: 100%;
+    width: 90%;
     padding-left: 12px;
     font-size: 12px;
     margin: 19px 21px;
@@ -41,6 +42,7 @@
     font-size: 12px;
     margin: 19px 21px;
     border: none;
+    width: 90%;
 }
 
 .map {
