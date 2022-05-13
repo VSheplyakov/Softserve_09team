@@ -212,10 +212,6 @@
 }
 
 @media (max-width: 660px) {
-    body {
-        background-color: #d0df56;     
-    }
-
     .nav-header {
         display: block;
     }
