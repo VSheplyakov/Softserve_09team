@@ -11,7 +11,7 @@
     text-transform: uppercase;
     font-size: 12px;
     line-height: 1.67;
-    margin-left: 60%;
+    margin-left: 10%;
 }
 
 .testimonials-title {
@@ -20,7 +20,7 @@
     font-size: 34px;
     line-height: 1.2;
     font-weight: 700;
-    margin-left: 60%;
+    margin-left: 10%;
 }
 
 .testimonials-text {
@@ -31,7 +31,7 @@
     font-weight: 400;
     font-style: italic;
     max-width: 767px;
-    margin-left: 60%;
+    margin-left: 10%;
 }
 
 .testimonials-initials {
@@ -40,10 +40,10 @@
     font-size: 19px;
     line-height: 1.5;
     font-weight: 500;
-    margin-left: 60%;
+    margin-left: 10%;
 }
 .testimonials__button {
-    margin-left: 60%;
+    margin-left: 10%;
     margin-top: 30px;
     font-size: 11px;
     width: 176px;
