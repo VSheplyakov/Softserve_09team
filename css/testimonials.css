@@ -55,7 +55,7 @@
     padding: 20px;
 }
 .testimonials__button:hover {
-    background-color: var(--button-a-color-hover);
+    background-color: var(--button-color-hover);
     color: var(--button-a-color)
     cursor: pointer;
 }
