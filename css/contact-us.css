@@ -11,6 +11,9 @@
         flex-direction: column;
         align-items: center;
     }
+    .map iframe {
+        width: 100%;
+    }
 }
 
 .contactUs-left {
@@ -34,8 +37,6 @@
     border-color: var(--contact-us-input-border);
     background-color: var(--contact-us-input-background);
     color: var(--contact-us-input-color);
-    /* width: 450px;
-    height: 150px; */
     padding-left: 12px;
     font-size: 12px;
     margin: 19px 21px;
@@ -44,13 +45,9 @@
 
 .map {
     margin-left: 50px;
-    width: 500px;
-
 }
 
 .contactUs__form {
-    /* width: 570.33px;
-    height: 846.771px; */
     background-color: var(--contacts-title-color);
     top: 50px;
     padding-left: 60px;
