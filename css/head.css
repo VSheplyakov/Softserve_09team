@@ -1,7 +1,99 @@
-.nav-header, .nav__social__network, .header__menu {
+.head-logo-img {
+    width: 202px;
+    height: 32px;
+    margin: 15px 0 15px 15px;
+}
+
+.head-logo-button {
+    display: flex;
+    background-color: #e8eeef;
+}
+
+.head-logo-style {
+    width: 240px;
+}
+
+.heder-burger-menu {
+    margin: 15px 10px 40px 78px;
+}
+
+.nav-link-page {
+    color: rgb(56, 89, 119);
+}
+
+.header-icon-link {
+    height: 30px;
+    display: flex;
+    margin: auto;
+}
+
+.nav-link-page a {
+    color: rgb(56, 89, 119);
+}
+
+.nav__social__network {
+    display: flex;
+    margin: 0 0 0 25px;
+}
+
+.fb__header,
+.inst__header,
+.tw__header,
+.youtube__header {
+    height: 32px;
+    width: 32px;
+    background-color: #d0df56;
+    margin: 0px 2px 5px 5px;
+}
+
+.head-facebook-img {
+    width: 12px;
+    padding-top: 25%;
+    margin-left: 25%;
+}
+
+.head-instagram-img {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: 25%;
+}
+
+.head-twitter-img {
+    width: 16px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    top: 25%;
+}
+
+.head-youtube-img {
+    width: 18px;
+    height: 30px;
+    display: flex;
+    margin: auto;
+}
+
+.head-picter-block {
+    background-image: url("../img/title-picter.png");
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 424px;
+}
+
+.head-picter-style {
+    margin-left: 30px;
+}
+
+ .nav-header, .nav__social__network, .header__menu {
     display: flex;
     align-items: center;
-}
+} 
 
 .header-background {
     background-color: #e8eeef;
@@ -94,8 +186,33 @@
 }
 
 .head-picter-style {
-    background-image: url("./../img/title-picter.png");
+    background: url("../img/title-picter.png") center no-repeat;
     width: 100%;
     height: 100%;
     margin: 0px 30px 15px 30px;
+    background-size: cover; 
 }  
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .nav-header {
+        margin: 0px;
+        /* display: flex none; */
+        display: table-cell;                      
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+    .nav-header {
+        margin: 0 0 0 0;        
+    }    
+}
+
+@media (min-width: 320px) and (max-width: 1200px) {
+    .nav-link-page {
+        margin: 10px 45px 10px 95px;
+        margin: auto 0 0 0;       
+    }    
+}
+
+
+
