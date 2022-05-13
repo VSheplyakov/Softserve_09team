@@ -52,7 +52,7 @@
 .articles__row {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 5;
+    column: gap 5px;
 }
 .articles__content{
     max-width: 100%;
