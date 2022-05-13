@@ -56,6 +56,6 @@
 }
 .testimonials__button:hover {
     background-color: var(--button-color-hover);
-    color: var(--button-a-color)
+    color: var(--button-a-color);
     cursor: pointer;
 }
