@@ -106,8 +106,10 @@ footer {
     }
     .columns{
        display: grid;
-       grid-template-columns: 50% 50%;
+       grid-template-columns: 1fr;
     }
+    .column {margin: auto;}
+    .column a {margin-left: 30px;}
 }
 
 .title-footer {
@@ -168,3 +170,9 @@ input {
     justify-content: space-around;
     margin: 20px 0px;
 }
+@media (max-width: 900px) {.down {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 3em;
+}}

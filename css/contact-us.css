@@ -25,7 +25,7 @@
     border-color: var(--contact-us-input-border);
     background-color: var(--contact-us-input-background);
     color: var(--contact-us-input-color);
-    width: 100%;
+    width: 90%;
     padding-left: 12px;
     font-size: 12px;
     margin: 19px 21px;
@@ -41,6 +41,7 @@
     font-size: 12px;
     margin: 19px 21px;
     border: none;
+    width: 90%;
 }
 
 .map {
@@ -52,6 +53,14 @@
     top: 50px;
     padding-left: 60px;
 }
+@media (max-width:950px) {
+    .contactUs__form {padding-left: 20px;}
+    .map {width: 100%;
+        margin: 0 auto;  
+  }
+    .map iframe {height: 280px;}
+  
+}
 
 .submit {
     font-size: 11px;
@@ -61,6 +70,12 @@
     border: none;
     background-color: var(--button-color);
     margin: 19px 21px;
+}
+@media (max-width:950px) {
+    .submit {width: 90%}
+    .contactUs-left{margin-top: 0px;}
+    .form {background-color: white;}
+
 }
 
 .submit:hover {
