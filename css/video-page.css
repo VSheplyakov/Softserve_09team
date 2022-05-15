@@ -21,6 +21,6 @@
     display: flex;
     flex-direction: row;
 }
-.video_block-block-youtube {
-    width: fit-content;
+.video_video-block {
+    width: 50%;
 }
