@@ -1,0 +1,26 @@
+.video_page-name {
+    color: var( --caption-color);
+    font-size: 12px;
+    font-weight: 600;
+}
+.video_title {
+    font-size: 40px;
+    font-weight: 600;
+}
+.video_button {
+    width: 176px;
+    height: 60px;
+    background-color: var(--button-color);
+    font-weight: 600;
+}
+.video_button-text {
+    font-size: 12.1;
+    font-weight: 600;
+}
+.video_text-block {
+    display: flex;
+    flex-direction: row;
+}
+.video_block-block-youtube {
+    width: fit-content;
+}
