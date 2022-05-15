@@ -1,7 +1,7 @@
 .contacts {
     background-image: var(--contacts-background-image);
     background-color: var(--contacts-background-color);
-    max-width: 100%;
+    width: 100%;
     margin-bottom: 30px;
 }
 
@@ -56,12 +56,23 @@
     margin-right: 15px;
     margin-bottom: 15px;
 }
-@media (max-width:1100px) {
+@media (max-width:800px) {
     .contacts__row {
-        flex-direction: column;
+        flex-direction: column; 
     }
 }
-
+@media (max-width:1100px) and (min-width:801px) {
+    .contacts__row {
+        display: grid;
+         grid-template-columns: 1fr 1fr;
+         grid-template-rows: 1fr 1fr;
+    }
+    .contacts__column_last {
+        grid-area: 2/1/2/4;
+        width: 46%;
+        place-self: center;
+    }  
+}
 .contacts__column img {
     display: block;
     min-width: 50px;
