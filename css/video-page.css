@@ -12,8 +12,10 @@
     height: 60px;
     background-color: var(--button-color);
     border: none;
-    
 }
+.video_button:hover {
+    color: var(--caption-color);
+}    
 .video_button-text {
     font-size: 11;
     color: var(--button-a-color);
@@ -23,7 +25,8 @@
 
 
 .video_block-youtube {
-    width: 50%;
+    width: 100%;
+    object-fit: cover;
     align-self: center;
 }
 .video_subtitle {
@@ -32,4 +35,11 @@
 .video_text {
     align-self: center;
 }
-
+.video_video-block {
+    display: flex;
+    flex-direction: column;
+}
+.video-video_text-block {
+    display: flex;
+    flex-direction: column;
+}
