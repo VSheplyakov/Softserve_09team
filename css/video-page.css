@@ -38,6 +38,7 @@
 .video_button:hover {
     background-color: var(--button-color-hover);
     color: var(--button-a-color-hover);
+    transition: all 0.5s ease;
 }    
 
 .video_block-youtube {
