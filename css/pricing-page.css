@@ -72,7 +72,7 @@
 .pricing {
     display: grid;
     grid-template-columns: auto auto;
-    column-gap: 50px;
+    column-gap: 10px;
 }
 @media (max-width: 768px) {
     .pricing {
@@ -119,4 +119,8 @@
 }
 .pricing__contact-text-link:hover {
     text-decoration: underline;
+}
+.pricing_list {
+    margin-left: 15px;
+    padding-right: 15px;
 }
