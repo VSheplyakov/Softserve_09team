@@ -22,19 +22,6 @@
     font-weight: 600;
     font-size: 14px;
 }
-/*.video_button {
-    cursor: pointer;
-    border: none;
-    font-family: 'Rubik';
-    width: 176px;
-    height: 60px;
-    background-color: var(--button-color);
-    font-size: 12px;
-    color: var(--button-a-color);
-    font-weight: 600;
-    margin-top: 25px;
-    margin-bottom: 25px;
-}*/
 .video_button {
     display: flex;
     width: 176px;
