@@ -82,16 +82,12 @@
 
 .head-picter-block {
     background-image: url("../img/title-picter.png");
-    width: 100%;
-    height: 100%;
-    margin: 15px 0 30px;     
+    padding: 100px 0px 150px 0px;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 424px;
+    margin-top: 30px;
 }
-.head-picter-style {
-    margin-left: 30px;
-}   
+ 
  .nav-header, .nav__social__network, .header__menu {
     display: flex;
     align-items: center;
