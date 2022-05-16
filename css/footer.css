@@ -44,6 +44,12 @@ footer {
     align-items: center;
     margin: 1px;
 }
+.fbLogo:hover,
+.instLogo:hover,
+.twtLogo:hover,
+.youtubeLogo:hover{
+    background-color: rgb(177, 194, 47);
+}
 
 .nav__logoBlock {
     display: flex;
@@ -144,8 +150,9 @@ footer {
 }
 
 #submit:hover {
-    color: var(--button-a-color-hover);
     background-color: var(--button-color-hover);
+    color: var(--button-a-color-hover);
+    transition: all 0.5s ease;
     cursor: pointer;
 }
 
