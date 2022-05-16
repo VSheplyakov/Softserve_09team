@@ -24,12 +24,12 @@
 }
 .video_button {
     cursor: pointer;
+    border: none;
+    font-family: 'Rubik';
     width: 176px;
     height: 60px;
     background-color: var(--button-color);
-    border: none;
     font-size: 12px;
-    font-family: 'Rubik', sans-serif;   
     color: var(--button-a-color);
     font-weight: 600;
     margin-top: 25px;
