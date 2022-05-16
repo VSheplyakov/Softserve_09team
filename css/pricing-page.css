@@ -29,7 +29,7 @@
     grid-template-columns: 52px 150px 1fr 30px 60px;
     grid-template-rows: 25px 25px;
     grid-column-gap: 3px;
-    min-width: 300px; 
+    min-width: 280px; 
     gap: 2px;
 }
 .pricing_icon {
@@ -47,6 +47,7 @@
     color: var(--title-color);
     font-size: 19px;
     font-weight: 600;
+    padding-top: 4px;
 }
 .pricing_grid-from {
     color: #54738e;
@@ -70,15 +71,21 @@
     margin-bottom: 3px;
 }
 .pricing {
-    display: grid;
-    grid-template-columns: auto auto;
-    column-gap: 10px;
+    /*display: grid;
+    grid-template-columns: 1fr 1fr;*/
+    display: flex;
+    flex-direction: row;
+    
+    
 }
 @media (max-width: 768px) {
     .pricing {
-        display: grid;
+        /*display: grid;
         grid-template-columns: 1fr;
-        gap: 60px;
+        gap: 30px;*/
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
     }
 }
 .pricing__contacts {
