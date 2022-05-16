@@ -89,17 +89,13 @@
     background-repeat: no-repeat;
     height: 424px;
 }
-
 .head-picter-style {
     margin-left: 30px;
-    margin: 15px 0 30px; 
-}
-
+}   
  .nav-header, .nav__social__network, .header__menu {
     display: flex;
     align-items: center;
 } 
-
 .header-background {
     background-color: #e8eeef;
 }
