@@ -71,21 +71,21 @@
     margin-bottom: 3px;
 }
 .pricing {
-    /*display: grid;
-    grid-template-columns: 1fr 1fr;*/
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /*display: flex;
+    flex-direction: row;*/
     
     
 }
 @media (max-width: 768px) {
     .pricing {
-        /*display: grid;
+        display: grid;
         grid-template-columns: 1fr;
-        gap: 30px;*/
-        display: flex;
-        flex-direction: column;
         gap: 50px;
+        /*display: flex;
+        flex-direction: column;
+        gap: 50px;*/
     }
 }
 .pricing__contacts {
