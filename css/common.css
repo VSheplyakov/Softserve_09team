@@ -19,7 +19,7 @@ html {
 }
 @media (max-width: 990px) {
     html {
-        margin: -8px;
+       margin: 0px;
     }
 }
 
