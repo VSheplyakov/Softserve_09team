@@ -13,9 +13,81 @@
     width: 240px;
 }
 
-.heder-burger-menu {
-    margin: 15px 10px 40px 78px;
+#heder-menu-toggle {
+    display: none;
+  }
+
+.menu__btn {
+  display: flex; 
+  align-items: center;  
+  position: fixed;
+  top: 60px;
+  right: 20px;
+  height: 26px;
+  cursor: pointer;
+  z-index: 1;
+  display: block;
+  float: right;
 }
+
+/* hamburger */
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #616161;
+}
+
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+/* menu container */
+.nav-link-page {
+    margin: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+  /* menu items */
+  .menu__item {
+    display: block;
+    padding: 12px 24px;
+    color: #333;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .menu__item:hover {
+    background-color: #CFD8DC;
+  }
+
+  #heder-menu-toggle:checked ~ .menu__btn > span {
+    transform: rotate(45deg);
+  }
+  
+  #heder-menu-toggle:checked ~ .menu__btn > span::before {
+    top: 0;
+    transform: rotate(0);
+  }
+  #heder-menu-toggle:checked ~ .menu__btn > span::after {
+    top: 0;
+    transform: rotate(90deg);
+  }
+  #heder-menu-toggle:checked ~ .nav-link-page-toggl {
+    left: 0;
+  }
 
 .nav-link-page {
     color: rgb(56, 89, 119);
@@ -85,18 +157,63 @@
     padding: 100px 0px 150px 0px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
-.nav-header,
-.nav__social__network,
-.header__menu {
+.header-h1, .header-proposition {
+    margin: revert;
+}  
+
+.header-button {
+    margin-right: 47px;
+    background: #d0df56;
+    width: 195px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 12px; 
+}
+
+.header-button:focus {
+    margin-right: 47px;
+    background: #d0df56;
+    width: 195px;
+    cursor: pointer;    
+}
+
+.header-button:active {
+    margin-right: 47px;
+    background: #50aab2;
+    width: 195px;
+    cursor: pointer; 
+    color: #e8eeef;   
+}
+ 
+.nav-header, .nav__social__network, .header__menu {
     display: flex;
     align-items: center;
-}
+} 
 
 .header-background {
     background-color: #e8eeef;
+}
+
+.header-text-style {
+    width: 42%;
+    height: auto;
+    margin: 85px 0 0 85px;   
+}
+
+.header-h1 {  
+    margin: revert;
+    margin-top: 28px;
+} 
+
+.header-proposition {
+    margin-top: 47px;
+}
+
+.header-button {
+    margin-top: 38px;
 }
 
 .nav-link-page {
@@ -189,51 +306,64 @@
     width: 100%;
     height: 100%;
     margin: 0px 30px 15px 30px;
-    background-size: cover;
+    background-size: cover; 
+}  
+
+.header-name{
+    font-size: 60px;
 }
+
+
 
 @media (max-width: 1280px) {
     .nav-link-page ul li {
         display: list-item;
-        list-style: none;
+       list-style: none;
     }
-}
 
-@media (max-width: 800px) {
-
-    .nav-header div,
-    .nav-header nav {
-        display: block;
+    .menu__btn {
+        top: 74px;
+        width: 26px;
+        right: 100px;
     }
-}
+    
+    .nav__social__network, .header__menu {
+    opacity: 0;
+    display: none;
+    }
 
-@media (max-width: 660px) {
     .nav-header {
-        display: block;
+        margin: 0;
     }
 
-    div.nav__social__network {
-        display: flex;
-        margin-top: 10px;
+    .head-picter-block {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 1280px) {
+    .menu__btn {
+        top: 65px;
+        width: 26px;
+        right: 100px;
     }
 
-    .header-background {
-        margin: 0px;
+    .header-text-style {
+        width: 60%;
+    }
+}
+
+@media (max-width: 420px) {
+    .menu__btn {
+        right: 47px;
     }
 
-    .head-logo-style {
-        margin-right: 0;
-        margin-left: 0;
-        padding-right: 0;
-        padding-left: 0;
+    .header-text-style {
+        margin: 110px 0 0 20px;
+        width: 60%;
     }
 
-    .head-logo-style img {
-        margin-left: 0px;
+    .header-name {
+        font-size: 50px;
     }
-
-    .nav-link-page ul li {
-        text-align: center;
-    }
-
 }
