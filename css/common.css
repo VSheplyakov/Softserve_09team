@@ -17,11 +17,6 @@ html {
         margin-top: -8px;
     }
 }
-@media (max-width: 990px) {
-    html {
-       margin: 0px;
-    }
-}
 
 :root {
     font-family: 'Rubik', sans-serif;
