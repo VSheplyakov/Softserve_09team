@@ -1,5 +1,5 @@
 .block__groups {
-    position: relative;
+    margin-top: 50px;
     border-color: #fff;
 
 }
@@ -14,7 +14,9 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 40px;
-
+        margin-top: -20px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
