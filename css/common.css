@@ -8,13 +8,28 @@
 
 :root {
     font-family: 'Rubik', sans-serif;
-    --caption-color: rgb(80, 170, 178);
-    --title-color: rgb(6, 42, 77);
-    --subTitle-color: rgb(56, 89, 119);
-    --content-block-color: rgb(232, 238, 239);
-    --content-block-background: url(..//img/background-about-us.svg);
     --header-about-us-color: rgb(6, 42, 77);
     --p-color: rgb(84, 115, 142);
+    --caption-color: #50aab2;
+    --title-color: #062a4d;
+    --subTitle-color: #385977;
+    --text-color: #54738e;
+    --content-block-color: #e8eeef;
+    --content-block-background: url(..//img/background_about_us.svg);
+    --header-about-us-color-top-icon: #50aab2;
+    --button-color: #d0df56;
+    --button-a-color: #062a4d;
+    --button-color-hover: #50aab2;
+    --button-a-color-hover: #ffffff;
+    --contacts-background-image: url(../img/contacts-background.svg);
+    --contacts-background-color: #062a4d;
+    --contacts-background-color-up: #062a4dfc;
+    --contacts-title-color: #ffffff;
+    --background-contact-us: #e6eef5;
+    --contact-us-input-background: #e8eeef;
+    --contact-us-input-border: #50aab2;
+    --contact-us-input-color: #062a4d;
+}
 
 }
 
@@ -52,6 +67,5 @@ h3 {
 p {
     color: var(--p-color);
     font-size: 17px;
-    font-weight: 300;
     line-height: 25.5px;
 }
