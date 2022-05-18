@@ -1,5 +1,5 @@
 .block__groups {
-    position: relative;
+    margin-top: 50px;
     border-color: #fff;
 
 }
@@ -14,7 +14,9 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 40px;
-
+        margin-top: -20px;
+        margin-left: 20px;
+        margin-right: 20px;
     }
 }
 
@@ -95,7 +97,6 @@
 .text_content {
     padding: 20px;
     text-align: left;
-    padding-bottom: 73px;
     color: rgb(84, 115, 142);
 }
 
