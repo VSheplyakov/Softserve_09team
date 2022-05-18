@@ -8,7 +8,7 @@
     <link rel="icon" href="img/icon-for-search.png" type="image/png">
     <title>Easy Doors</title>
     <link rel="stylesheet" href="css/index.css">
-    <!--<script src="https://kit.fontawesome.com/4d7531f015.js" crossorigin="anonymous"></script>-->
+    <link rel="\common.css"/>
 </head>
 
 <body class="all_pages">
@@ -21,9 +21,16 @@
                         <img class="head-logo-img" src="img/logo-header.svg" alt="logo">
                     </div>
                 </div>
+                <div class="hamburger-menu">
+                    <input id="heder-menu-toggle" type="checkbox" />
+                    <label class="menu__btn" for="heder-menu-toggle">
+                      <span></span>
+                    </label>
+                </div>  
+                
                 <nav class="header__menu">
                     <div class="nav-link-page">
-                        <ul>
+                        <ul class="nav-link-page-toggl">
                             <li><a href="#header-about-us">About Us</a></li>
                             <li><a href="#">Services</a></li>
                             <li><a href="#header-prising">Pricing</a></li>
@@ -31,9 +38,9 @@
                             <li><a href="#header-testimonials">Testimonials</a></li>
                             <li><a href="#header-links-form">Get a Quote</a></li>
                         </ul>
-
                     </div>
                 </nav>
+
                 <div class="nav__social__network">
                     <div class="fb__header">
                         <a href="https://facebook.com" target="_blank">
@@ -52,24 +59,31 @@
                             <img class="head-youtube-img" src="img/youtube-brands-header.svg" alt="youtube"></a>
                     </div>
                 </div>
-
             </div>
-        </div>
+
     </header>
     <div class="head-picter-block">
+
+     
+    
+
+        <div class="header-text-style">
         <div class="header-p">
-            <p class="shift-header"><b>- BEST-PERFORMING DOORS -</b></p>
+            <h3 class="shift-header">- BEST-PERFORMING DOORS -</b></p>
         </div>
-        <div class="header-h1">
+        <div class="header-h1">   
             <h1 class="header-name">Fast and Reliable Doors Installation</h1>
         </div>
         <div class="header-h2">
             <h2 class="header-proposition">If you need door installation services in Miami, contact us.</h2>
         </div>
-        <div>
-            <a href="#header-links-form">
+        <div class="header-button">
+            <!-- <a href="#header-links-form">
                 <p>FILL OUT THE FORM</p>
+            </a> -->
+            <a href="#header-links-form"><input type="button" value="FILL OUT THE FORM &#8594;" class="header-button">
             </a>
+        </div>
         </div>
     </div>
     <!--Natalia Gritsaienko end block-->
