@@ -39,13 +39,13 @@
 }
 
 .companies__partners {
-    width: 100px;
+    width: 100%;
     padding-left: 32px;  
 }
 
 .javascript__partners {
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto auto;
     gap: 5px;
 }
 

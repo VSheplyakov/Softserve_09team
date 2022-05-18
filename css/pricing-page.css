@@ -20,13 +20,16 @@
     font-size: 19px;
     margin-bottom: 80px;
 }
-
 .pricing_page-head {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-
+@media (max-width: 520px) {
+    .pricing_page-head {
+        padding: 0px 0px 0px 20px;
+    }
+}
 .pricing_grid-container {
     display: grid;
     grid-template-columns: 52px 150px 1fr 30px 60px;
@@ -86,8 +89,6 @@
     grid-template-columns: 1fr 1fr;
     /*display: flex;
     flex-direction: row;*/
-
-
 }
 
 @media (max-width: 768px) {
