@@ -1,6 +1,5 @@
 .pricing_page {
     background-color: var(--background-contact-us);
-    margin-top: 30px;
 }
 .pricing_page-name {
     color: var( --caption-color);
@@ -94,7 +93,11 @@
     justify-content: center;
     padding-top: 100px;
     padding-bottom: 110px;
-    margin-bottom: 130px;
+}
+@media (max-width: 420px) {
+    .pricing__contacts {
+        padding: 0px 0px 0px 20px;
+    }
 }
 .pricing__call-ico {
     background-color: var(--button-color);

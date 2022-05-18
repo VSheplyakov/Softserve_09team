@@ -50,6 +50,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 0px 32px 0px 32px;
 }
 .video_container {
     display: flex;
@@ -60,4 +61,7 @@
     flex-direction: row;
     gap: 20px;
     }
+}
+.video_text-block {
+    padding-left: 32px;
 }

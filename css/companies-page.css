@@ -9,6 +9,7 @@
     color: var(--caption-color);
     font-weight: 600;
     font-size: 12px;
+    padding-left: 32px;
     padding-bottom: 30px;
 }
 .companies__title {
@@ -16,27 +17,30 @@
     font-size: 34px;
     font-weight: 600;
     padding-bottom: 30px;
+    padding-left: 32px;
 }
 .companies__subtitle {
     color: var(--content-block-color);
     font-size: 19px;
     font-weight: 600;
     padding-bottom: 30px;
+    padding-left: 32px;
 }
 .companies__text {
     color: var(--companies-page-text-color);
     font-size: 17px;
     font-weight: 600;
     padding-bottom: 60px;
+    padding-left: 32px;
 }
 .companies__partners {
-    width: 100px;  
+    width: 100px;
+    padding-left: 32px;  
 }
 .javascript__partners {
     display: flex;
     flex-direction: row;
     gap: 5px;
-    
 }
 .companies__container {
     max-width: 700px;
