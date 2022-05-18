@@ -47,6 +47,7 @@
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 5px;
+    padding-right: 32px;
 }
 
 .companies__container {
