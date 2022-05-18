@@ -1,12 +1,12 @@
 .block__groups {
     position: relative;
     border-color: #fff;
-    
+
 }
 
 .content__block__groups {
     display: grid;
-   
+
 }
 
 @media (min-width: 320px) {
@@ -14,7 +14,7 @@
         display: grid;
         grid-template-columns: 1fr;
         gap: 40px;
-        
+
     }
 }
 
@@ -22,7 +22,7 @@
     .content__block__groups {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        
+
     }
 }
 
@@ -48,7 +48,7 @@
     background-position-y: 43.99%, 0%;
     background-size: cover, auto;
     background-color: rgba(232, 238, 239, 0.68);
-    
+
 }
 
 .block__accountability {
@@ -57,7 +57,7 @@
     background-position-y: 43.99%, 0%;
     background-size: cover, auto;
     background-color: rgba(232, 238, 239, 0.68);
-    
+
 }
 
 .block__responsiveness {
@@ -66,7 +66,7 @@
     background-position-y: 43.99%, 0%;
     background-size: cover, auto;
     background-color: rgba(232, 238, 239, 0.68);
-    
+
 }
 
 .block__respectful {
@@ -75,18 +75,14 @@
     background-position-y: 43.99%, 0%;
     background-size: cover, auto;
     background-color: rgba(232, 238, 239, 0.68);
-    
+
 }
 
 .heading__text {
     padding-left: 20px;
     font-size: 26px;
-    line-height: 1.4;
-    font-weight: bold;
-    text-decoration: none;
-    font-style: normal;
-    letter-spacing: 0;
-    color: rgb(6, 42, 77)
+    font-weight: 500;
+    color: rgb(6, 42, 77);
 }
 
 .content__line {
