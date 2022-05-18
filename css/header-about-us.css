@@ -22,7 +22,7 @@
     padding-right: 60px;
     line-height: 1.5;
     word-wrap: break-word;
-    
+
 }
 
 @media (max-width: 760px) {
@@ -35,27 +35,27 @@
     }
 }
 
-    /*.banner_about_us {
+/*.banner_about_us {
     padding-left: 40px;
 }*/
 
-    .about_us_h3 {
-        margin-top: 25px;
-    }
+.about_us_h3 {
+    margin-top: 25px;
+}
 
-    .about__us__p {
-        margin-top: 25px;
-    }
+.about__us__p {
+    margin-top: 25px;
+}
 
-    .about__us__icon {
-        display: flex;
-        align-items: center;
-        margin-top: 20px;
-        color: var(--caption-color);
-    }
+.about__us__icon {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    color: var(--caption-color);
+}
 
-    .about__us__a {
-        padding-left: 10px;
-        padding-right: 20px;
-        color: var(--subTitle-color);
-    }
+.about__us__a {
+    padding-left: 10px;
+    padding-right: 20px;
+    color: var(--subTitle-color);
+}

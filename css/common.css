@@ -1,9 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Merriweather:ital@0;1&family=Rubik:wght@300;400;500;600;700&family=Work+Sans:wght@400;500;800&display=swap');
 
 * {
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
+}
+
+html {
+    margin-left: 22px;
+    margin-right: 22px;
+    margin-top: -8px;
+}
+
+@media (max-width: 1240px) {
+    html {
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: -8px;
+    }
+}
+@media (max-width: 990px) {
+    html {
+        margin: -8px;
+    }
 }
 
 :root {

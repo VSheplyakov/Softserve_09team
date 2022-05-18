@@ -5,6 +5,7 @@
     background-repeat: no-repeat;
     margin-top: 5px;
 }
+
 .companies__page-name {
     color: var(--caption-color);
     font-weight: 600;
@@ -12,6 +13,7 @@
     padding-left: 32px;
     padding-bottom: 30px;
 }
+
 .companies__title {
     color: var(--content-block-color);
     font-size: 34px;
@@ -19,6 +21,7 @@
     padding-bottom: 30px;
     padding-left: 32px;
 }
+
 .companies__subtitle {
     color: var(--content-block-color);
     font-size: 19px;
@@ -26,6 +29,7 @@
     padding-bottom: 30px;
     padding-left: 32px;
 }
+
 .companies__text {
     color: var(--companies-page-text-color);
     font-size: 17px;
@@ -33,15 +37,18 @@
     padding-bottom: 60px;
     padding-left: 32px;
 }
+
 .companies__partners {
     width: 100%;
     padding-left: 32px;  
 }
+
 .javascript__partners {
     display: grid;
     grid-template-columns: auto auto auto;
     gap: 5px;
 }
+
 .companies__container {
     max-width: 700px;
     display: flex;
