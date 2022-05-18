@@ -97,6 +97,7 @@
 @media (max-width: 420px) {
     .pricing__contacts {
         padding: 0px 0px 0px 20px;
+        padding-bottom: 110px;
     }
 }
 .pricing__call-ico {
