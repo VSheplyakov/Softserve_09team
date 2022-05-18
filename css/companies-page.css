@@ -12,7 +12,7 @@
     padding-bottom: 30px;
 }
 .companies__title {
-    color: #ffffff;
+    color: var(--content-block-color);
     font-size: 34px;
     font-weight: 600;
     padding-bottom: 30px;
@@ -24,7 +24,7 @@
     padding-bottom: 30px;
 }
 .companies__text {
-    color: #C5C5C6;
+    color: var(--companies-page-text-color);
     font-size: 17px;
     font-weight: 600;
     padding-bottom: 60px;

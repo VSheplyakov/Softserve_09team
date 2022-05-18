@@ -8,13 +8,13 @@
 
 :root {
     font-family: 'Rubik', sans-serif;
-    --caption-color: rgb(80, 170, 178);
-    --title-color: rgb(6, 42, 77);
-    --subTitle-color: rgb(56, 89, 119);
-    --content-block-color: rgb(232, 238, 239);
+    --caption-color: #50aab2;
+    --title-color: #062a4d;
+    --subTitle-color: #385977;
+    --content-block-color: #e8eeef;
     --content-block-background: url(..//img/background-about-us.svg);
-    --header-about-us-color: rgb(6, 42, 77);
-    --p-color: rgb(84, 115, 142);
+    --header-about-us-color: #062a4d;
+    --p-color: #54738e;
 
 }
 
