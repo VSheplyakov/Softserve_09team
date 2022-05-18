@@ -47,6 +47,7 @@
 .map {
     margin-left: 50px;
 }
+.map iframe {filter: grayscale(100%);}
 
 .contactUs__form {
     background-color: var(--contacts-title-color);
