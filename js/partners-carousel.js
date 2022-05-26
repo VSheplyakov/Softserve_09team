@@ -39,4 +39,6 @@
   renderCarousel(0);
 
   window.addEventListener('resize', renderCarousel);
+  
+  
 })();

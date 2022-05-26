@@ -54,10 +54,9 @@
     padding-right: 32px;
 }
 
-/* .partners-slide {
-    display: flex;
-    flex-direction: column;
-} */
+.partners-slide img {
+  cursor: pointer;
+} 
 
 .companies__container {
     max-width: 700px;
