@@ -43,11 +43,20 @@
     padding-left: 32px;  
 }
 
-/* .carousel-partners {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 5px;
+.carousel-partners img {
+    width: 100%;
+}
+
+.carousel-partners {
+    display: flex;
+    gap: 10px;
+    padding-left: 32px;
     padding-right: 32px;
+}
+
+/* .partners-slide {
+    display: flex;
+    flex-direction: column;
 } */
 
 .companies__container {
