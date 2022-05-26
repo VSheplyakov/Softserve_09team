@@ -13,16 +13,20 @@
     const slideContainer = document.querySelector('.carousel-partners');
     slideContainer.innerHTML = slides[currentSlide];
     if (window.innerWidth >= 600) {
-      const secondSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
+      const secondSlide =
+        currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
       slideContainer.innerHTML += slides[secondSlide];
       if (window.innerWidth >= 900) {
-        const thirdSlide = secondSlide + 1 >= slides.length ? 0 : secondSlide + 1;
+        const thirdSlide =
+          secondSlide + 1 >= slides.length ? 0 : secondSlide + 1;
         slideContainer.innerHTML += slides[thirdSlide];
         if (window.innerWidth >= 1200) {
-          const fourthSlide = thirdSlide + 1 >= slides.length ? 0 : thirdSlide + 1;
+          const fourthSlide =
+            thirdSlide + 1 >= slides.length ? 0 : thirdSlide + 1;
           slideContainer.innerHTML += slides[fourthSlide];
           if (window.innerWidth >= 1600) {
-            const fifthSlide = fourthSlide + 1 >= slides.length ? 0 : fourthSlide + 1;
+            const fifthSlide =
+              fourthSlide + 1 >= slides.length ? 0 : fourthSlide + 1;
             slideContainer.innerHTML += slides[fifthSlide];
           }
         }
@@ -35,10 +39,8 @@
     renderCarousel();
   }
 
-  setInterval(nextSlide, 5000);
+  setInterval(nextSlide, 1500);
   renderCarousel(0);
 
   window.addEventListener('resize', renderCarousel);
-  
-  
 })();

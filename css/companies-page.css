@@ -1,65 +1,65 @@
 .background__img {
-    background-image: url(../img/page-company-background-image.png);
-    padding: 100px 0px 150px 0px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 5px;
+  background-image: url(../img/page-company-background-image.png);
+  padding: 100px 0px 150px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 5px;
 }
 
 .companies__page-name {
-    color: var(--caption-color);
-    font-weight: 600;
-    font-size: 13px;
-    padding-left: 32px;
-    padding-bottom: 30px;
+  color: var(--caption-color);
+  font-weight: 600;
+  font-size: 13px;
+  padding-left: 32px;
+  padding-bottom: 30px;
 }
 
 .companies__title {
-    color: var(--content-block-color);
-    font-size: 46px;
-    font-weight: 600;
-    padding-bottom: 30px;
-    padding-left: 32px;
+  color: var(--content-block-color);
+  font-size: 46px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  padding-left: 32px;
 }
 
 .companies__subtitle {
-    color: var(--content-block-color);
-    font-size: 19px;
-    font-weight: 600;
-    padding-bottom: 30px;
-    padding-left: 32px;
+  color: var(--content-block-color);
+  font-size: 19px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  padding-left: 32px;
 }
 
 .companies__text {
-    color: var(--companies-page-text-color);
-    font-size: 17px;
-    font-weight: 600;
-    padding-bottom: 60px;
-    padding-left: 32px;
+  color: var(--companies-page-text-color);
+  font-size: 17px;
+  font-weight: 600;
+  padding-bottom: 60px;
+  padding-left: 32px;
 }
 
 .companies__partners {
-    width: 100%;
-    padding-left: 32px;  
+  width: 100%;
+  padding-left: 32px;
 }
 
 .carousel-partners img {
-    width: 100%;
+  width: 100%;
 }
 
 .carousel-partners {
-    display: flex;
-    gap: 10px;
-    padding-left: 32px;
-    padding-right: 32px;
+  display: flex;
+  gap: 15px;
+  padding-left: 32px;
+  padding-right: 32px;
+  height: 175px;
 }
 
 .partners-slide img {
   cursor: pointer;
-} 
+}
 
 .companies__container {
-    max-width: 700px;
-    display: flex;
-    flex-direction: column;
+  display: grid;
+  max-width: 670px;
 }
