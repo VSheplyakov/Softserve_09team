@@ -227,3 +227,9 @@ input {
         line-height: 3em;
     }
 }
+.clock {
+    text-align: center;
+    color: var(--title-color);
+    font-size: 15px;
+    font-weight: 500;
+}
