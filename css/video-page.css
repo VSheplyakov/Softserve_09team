@@ -22,9 +22,10 @@
 }
 
 .video_text-about {
-    margin-top: 15px;
+    margin-top: 5px;
     font-weight: 600;
     font-size: 14px;
+    text-align: center;
 }
 
 .video_button {
@@ -56,6 +57,7 @@
 .video_video-block {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     padding: 30px 32px 30px 32px;
 }
