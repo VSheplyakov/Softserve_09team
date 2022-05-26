@@ -5,7 +5,7 @@
           of my comlexity.</p>`,
       `<img class="video_block-youtube" src="img/video-page-video-altana.png" alt="Video Altana Project"><h2 class="video_subtitle">Video Altana Project</h2>
       <p class="video_text-about">Installation of doors in a master bedroom of a specific shape.</p>`,
-      `<img class="video_block-youtube" src="img/video-page-video-budget-door.png" alt="video lock"><h2>Budget Door Instalation</h2>
+      `<img class="video_block-youtube" src="img/video-page-video-budget-door.png" alt="video lock"><h2 class="video_subtitle">Budget Door Instalation</h2>
       <p class="video_text-about">We fulfill any order for a full due.</p>`
     ];
   
@@ -22,7 +22,7 @@
     }
   
     setInterval(nextSlide, 5000);
-    renderCarousel(0);
+    renderCarousel();
   
     window.addEventListener('resize', renderCarousel);
     

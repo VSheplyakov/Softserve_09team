@@ -6,7 +6,7 @@
 
 .video_title {
     margin-top: 25px;
-    font-size: 40px;
+    font-size: 46px;
     font-weight: 600;
 }
 
@@ -60,6 +60,7 @@
     justify-content: center;
     align-items: center;
     padding: 30px 32px 30px 32px;
+    height: auto;
 }
 
 .video_container {
