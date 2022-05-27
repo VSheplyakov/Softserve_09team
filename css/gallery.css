@@ -1,5 +1,6 @@
 .gallery {
-    background: var(--content-block-color);
+    background-color: var(--content-block-color);
+    background-image: url('/img/service_background.svg');
     text-align: center;
 }
 
