@@ -1,16 +1,41 @@
-.head-logo-img {
-    width: 202px;
-    height: 32px;
-    margin: 15px 0 15px 15px;
+*,*:before, *:after{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
 }
 
-.head-logo-button {
-    display: flex;
+.header__logo {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+}
+
+.header__logo:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-color: #e8eeef;
 }
 
-.head-logo-style {
-    width: 240px;
+.nav-header {
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    height: 92px;
+    align-items: centr;    
+}
+
+.header-background {
+    padding: 0px 22px;
+    margin: 0px auto;  
+    max-width: 1285px;    
 }
 
 #heder-menu-toggle {
@@ -39,6 +64,7 @@
   width: 100%;
   height: 2px;
   background-color: #616161;
+  transition: all 0.3s ease 0s;
 }
 
 .menu__btn > span::before {
@@ -58,7 +84,6 @@
     text-align: center;
   }
 
-  /* menu items */
   .menu__item {
     display: block;
     padding: 12px 24px;
@@ -73,20 +98,20 @@
     background-color: #CFD8DC;
   }
 
-  #heder-menu-toggle:checked ~ .menu__btn > span {
+  #heder-menu-toggle:checked ~ div .menu__btn > span {
     transform: rotate(45deg);
   }
   
-  #heder-menu-toggle:checked ~ .menu__btn > span::before {
+  #heder-menu-toggle:checked ~ div .menu__btn > span::before {
     top: 0;
     transform: rotate(0);
   }
-  #heder-menu-toggle:checked ~ .menu__btn > span::after {
+  #heder-menu-toggle:checked ~ div .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
   }
-  #heder-menu-toggle:checked ~ .nav-link-page-toggl {
-    left: 0;
+  #heder-menu-toggle:checked ~ nav {
+    display: block;
   }
 
 .nav-link-page {
@@ -157,7 +182,7 @@
     padding: 100px 0px 150px 0px;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-top: 15px;
+    margin-top: 115px;
 }
 
 .header-h1, .header-proposition {
@@ -165,12 +190,17 @@
 }  
 
 .header-button {
-    margin-right: 47px;
-    background: #d0df56;
-    width: 195px;
-    cursor: pointer;
-    font-weight: bolder;
-    font-size: 12px; 
+    display: flex;
+    width: 225px;
+    height: 60px;
+    background-color: var(--button-color);
+    font-size: 12px;
+    color: var(--button-a-color);
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
 }
 
 .header-button:focus {
@@ -192,10 +222,6 @@
     display: flex;
     align-items: center;
 } 
-
-.header-background {
-    background-color: #e8eeef;
-}
 
 .header-text-style {
     width: 42%;
@@ -297,6 +323,7 @@
     height: auto;
 }
 
+
 .shift-header {
     color: #50aab2
 }
@@ -313,7 +340,9 @@
     font-size: 60px;
 }
 
-
+.hamburger-menu {
+    display: none;
+}
 
 @media (max-width: 1280px) {
     .nav-link-page ul li {
@@ -321,14 +350,35 @@
        list-style: none;
     }
 
+    .nav-link-page-toggl li {
+        margin: 0 0 20px 0;
+    }
+
+    .nav-link-page {
+        padding: 120px 0 0 0;
+    }
+
     .menu__btn {
         top: 74px;
         width: 26px;
         right: 100px;
     }
+
+    .header__menu {
+        position: fixed;
+        top: 0;
+        left: -3px;
+        width: 100%;
+        height: 100%;
+        background-color: #e8eeef;
+    }
+
+    .head-logo-button {
+        position: relative;
+        z-index: 5;
+    }
     
     .nav__social__network, .header__menu {
-    opacity: 0;
     display: none;
     }
 
@@ -337,19 +387,32 @@
     }
 
     .head-picter-block {
-        margin-top: 0;
+        margin-top: 100px;
     }
-}
 
-@media (max-width: 1280px) {
+    .hamburger-menu {
+        display: block;
+    }
     .menu__btn {
-        top: 65px;
+        top: 45px;
         width: 26px;
         right: 100px;
     }
 
     .header-text-style {
         width: 60%;
+    }
+}
+
+@media (max-width: 767px) {
+    bady.all_pages {
+        overflow: hidden;
+    }
+}
+
+@media (max-width: 500px) {
+    .header-name {
+        font-size: 50px;
     }
 }
 
@@ -359,11 +422,11 @@
     }
 
     .header-text-style {
-        margin: 110px 0 0 20px;
+        margin: 110px 0 0 30px;
         width: 60%;
     }
 
     .header-name {
-        font-size: 50px;
+        font-size: 45px;
     }
 }
