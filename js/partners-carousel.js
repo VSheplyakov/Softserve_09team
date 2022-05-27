@@ -4,7 +4,7 @@
     '<div class="partners-slide"><img src="img/partners-img/fedex.svg" alt="Fedex"></div>',
     '<div class="partners-slide"><img src="img/partners-img/giffels.svg" alt="Giffels"></div>',
     '<div class="partners-slide"><img src="img/partners-img/interior.svg" alt="Interior"></div>',
-    '<div class="partners-slide"><img src="img/partners-img/lowes.svg" alt="Lowes"></div>',
+    '<div class="partners-slide"><img src="img/partners-img/lowes.svg" alt="Lowes"></div>'
   ];
 
   let currentSlide = 0;
