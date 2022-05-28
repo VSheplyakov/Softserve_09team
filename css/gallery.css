@@ -1,8 +1,14 @@
 .gallery {
+    margin-top: 20px;
     background-color: var(--content-block-color);
     background-image: url('/img/service_background.svg');
     text-align: center;
 }
+
+/*.gallery-box {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}*/
 
 .gallery-subtitle {
     font-size: 12px;
@@ -30,8 +36,15 @@
     padding-bottom: 50px;
 }
 
-.picture-example1 {
-    max-width: 100%;
-    height: auto;
-    padding-bottom: 50px;
+.gallery-carousel {
+    min-height: 934px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-carousel img {
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 100%;
+    margin: auto;
 }

@@ -8,8 +8,8 @@
     let currentSlide = 0;
 
     function renderCarousel() {
-        const carouselContainer = document.querySelector('.gallery-carousel');
-        carouselContainer.innerHTML = slides[currentSlide];
+        const slideContainer = document.querySelector('.gallery-carousel .slide');
+        slideContainer.innerHTML = slides[currentSlide];
     }
 
     function nextSlide() {
@@ -17,6 +17,19 @@
         renderCarousel();
     }
 
-    setInterval(nextSlide, 3000);
+    function prevSlide() {
+        currentSlide = currentSlide - 1 <= 0 ? slides.length - 1 : currentSlide - 1;
+        renderCarousel();
+    }
+
+    //setInterval(nextSlide, 3000);
     
+    renderCarousel();
+
+    const btnForward = document.querySelector('.gallery-carousel .forward');
+    btnForward.addEventListener('click', nextSlide)
+
+    const btnBack = document.querySelector('.gallery-carousel .back');
+    btnBack.addEventListener('click', prevSlide)
+
 })();
