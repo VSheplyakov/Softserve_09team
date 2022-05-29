@@ -1,11 +1,11 @@
 @media (min-width: 768px) {
     .testimonials-block {
-        padding-left: 60%;
+        padding-left: 50%;
     }
 }
 
 .image-testimonials {
-    background-image: url(../img/testimonials.png);
+    background-image: url(../img/testimonials.jpg);
     padding: 200px 0px 150px 0px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -35,7 +35,7 @@
 
 .testimonials-text {
     margin-top: 25px;
-    color: var(--contacts-title-color);
+    color: var(--companies-page-text-color);
     font-size: 18px;
     line-height: 1.56;
     font-weight: 400;
