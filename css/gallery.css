@@ -1,7 +1,7 @@
 .gallery {
     margin-top: 20px;
     background-color: var(--content-block-color);
-    background-image: url('/img/service_background.svg');
+    background-image: url('/img/gallery-background.svg');
     text-align: center;
 }
 
