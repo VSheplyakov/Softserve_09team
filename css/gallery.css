@@ -1,14 +1,22 @@
+@media (min-width: 998px) {
+    .gallery {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+
 .gallery {
-    margin-top: 20px;
+    /*margin-top: 20px;*/
     background-color: var(--content-block-color);
     background-image: url('/img/gallery-background.svg');
     text-align: center;
 }
 
-/*.gallery-box {
-    padding-top: 80px;
+.gallery-box {
+    padding-top: 60px;
     padding-bottom: 80px;
-}*/
+}
 
 .gallery-subtitle {
     font-size: 12px;
@@ -16,7 +24,7 @@
     font-weight: 700;
     color: var(--caption-color);
     text-transform: uppercase;
-    padding-top: 60px;
+    padding-top: 30px;
 }
 
 .gallery-h2 {
@@ -37,7 +45,6 @@
 }
 
 .gallery-carousel {
-    min-height: 934px;
     display: flex;
     justify-content: space-between;
 }
