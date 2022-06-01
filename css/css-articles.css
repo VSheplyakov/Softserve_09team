@@ -58,16 +58,13 @@
             "c c";
         row-gap: 20px;
     }
-
-    #a {
+    .articles__column:nth-child(1) {
         grid-area: a;
     }
-
-    #b {
+    .articles__column:nth-child(2) {
         grid-area: b;
     }
-
-    #c {
+    .articles__column:nth-child(3) {
         grid-area: c;
         margin: 0 auto;
         max-width: 50%;
