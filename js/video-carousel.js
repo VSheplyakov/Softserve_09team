@@ -21,6 +21,17 @@
     renderCarousel();
   }
 
+  // function prevSlide() {
+  //   currentSlide = currentSlide - 1 <= 0 ? slides.length - 1 : currentSlide - 1;
+  //   renderSlider();
+  // }
+
+  // const btnForward = document.querySelector(".new-arrivals__slider_forward");
+  // btnForward.addEventListener("click", nextSlide);
+
+  // const btnBack = document.querySelector(".new-arrivals__slider_back");
+  // btnBack.addEventListener("click", prevSlide);
+
   setInterval(nextSlide, 5000);
   renderCarousel();
 
