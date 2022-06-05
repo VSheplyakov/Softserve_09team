@@ -23,7 +23,7 @@
 
   function prevSlide() {
     currentSlide = currentSlide - 1 <= 0 ? slides.length - 1 : currentSlide - 1;
-    renderCarousel(); //renderSlider();
+    renderCarousel();
   }
 
   const btnForward = document.querySelector('.btn-forvard-video-page');
@@ -32,7 +32,6 @@
   const btnBack = document.querySelector('.btn-back-video-page');
   btnBack.addEventListener('click', prevSlide);
 
-  //setInterval(nextSlide, 5000);
   renderCarousel();
 
   window.addEventListener('resize', renderCarousel);

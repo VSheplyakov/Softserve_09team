@@ -98,7 +98,6 @@
   font-size: 30px;
   border-radius: 100%;
   cursor: pointer;
-  
 }
 
 .btn-forvard-video-page:hover,
@@ -119,7 +118,6 @@
   font-size: 30px;
   border-radius: 100%;
   cursor: pointer;
-  
 }
 
 .btn-forvard-video-page:hover,
@@ -135,8 +133,8 @@
 }
 .btn-forward-video-slide {
   margin-right: -35px;
-  z-index: 1
+  z-index: 1;
 }
 .btn-back-video-slide {
   margin-left: -35px;
-} 
+}
