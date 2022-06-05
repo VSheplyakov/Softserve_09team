@@ -6,7 +6,7 @@
     `<img class="video_block-youtube" src="img/video-page-video-altana.png" alt="Video Altana Project"><h2 class="video_subtitle">Video Altana Project</h2>
       <p class="video_text-about">Installation of doors in a master bedroom of a specific shape.</p>`,
     `<img class="video_block-youtube" src="img/video-page-video-budget-door.png" alt="video lock"><h2 class="video_subtitle">Budget Door Instalation</h2>
-      <p class="video_text-about">We fulfill any order for a full due.</p>`
+      <p class="video_text-about">We fulfill any order for a full due.</p>`,
   ];
 
   let currentSlide = 0;
@@ -21,18 +21,18 @@
     renderCarousel();
   }
 
-  // function prevSlide() {
-  //   currentSlide = currentSlide - 1 <= 0 ? slides.length - 1 : currentSlide - 1;
-  //   renderSlider();
-  // }
+  function prevSlide() {
+    currentSlide = currentSlide - 1 <= 0 ? slides.length - 1 : currentSlide - 1;
+    renderCarousel(); //renderSlider();
+  }
 
-  // const btnForward = document.querySelector(".new-arrivals__slider_forward");
-  // btnForward.addEventListener("click", nextSlide);
+  const btnForward = document.querySelector('.btn-forvard-video-page');
+  btnForward.addEventListener('click', nextSlide);
 
-  // const btnBack = document.querySelector(".new-arrivals__slider_back");
-  // btnBack.addEventListener("click", prevSlide);
+  const btnBack = document.querySelector('.btn-back-video-page');
+  btnBack.addEventListener('click', prevSlide);
 
-  setInterval(nextSlide, 5000);
+  //setInterval(nextSlide, 5000);
   renderCarousel();
 
   window.addEventListener('resize', renderCarousel);
