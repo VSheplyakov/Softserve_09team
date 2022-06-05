@@ -59,8 +59,7 @@
   justify-content: center;
   align-items: center;
   padding: 30px 32px 30px 32px;
-  height: auto;
-  min-height: 560px;
+  height: 560px;
   min-width: 327px;
   max-width: 770px;
 }
@@ -111,15 +110,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 35px;
-  height: 35px;
+  width: 30px;
+  height: 30px;
   background-color: #3a4750;
   color: white;
-  font-size: 30px;
+  font-size: 26px;
   border-radius: 100%;
   cursor: pointer;
 }
 
+@media (max-width: 750px) {
+  .btn-forvard-video-page,
+  .btn-back-video-page {
+    width: 20px;
+    height: 20px;
+    font-size: 18px;
+  }
+}
 .btn-forvard-video-page:hover,
 .btn-back-video-page:hover {
   background-color: #062a4d;
