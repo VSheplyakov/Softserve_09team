@@ -1,7 +1,3 @@
-.all_pages_lock {
-    overflow: hidden;
-}
-
 *,*:before, *:after{
     padding: 0;
     margin: 0;
@@ -33,6 +29,7 @@
     display: flex;
     justify-content: space-between;
     height: 92px;
+    align-items: center;    
 }
 
 .header-background {
@@ -43,7 +40,7 @@
 
 #heder-menu-toggle {
     display: none;
-}
+  }
 
 .menu__btn {
   display: flex; 
@@ -54,7 +51,7 @@
   height: 26px;
   cursor: pointer;
   z-index: 1;
-  /* display: block; */
+  display: block;
   float: right;
 }
 
@@ -109,18 +106,16 @@
     top: 0;
     transform: rotate(0);
   }
-
   #heder-menu-toggle:checked ~ div .menu__btn > span::after {
     top: 0;
     transform: rotate(90deg);
   }
-
   #heder-menu-toggle:checked ~ nav {
     display: block;
   }
-  
-.header__menu__social {
-    display: flex;
+
+.nav-link-page {
+    color: rgb(56, 89, 119);
 }
 
 .header-icon-link {
@@ -150,10 +145,6 @@
     width: 32px;
     background-color: #d0df56;
     margin: 0px 2px 5px 5px;
-}
-
-div .nav__social__network :hover {
-    background-color: #b0be40;
 }
 
 .head-facebook-img {
@@ -194,6 +185,10 @@ div .nav__social__network :hover {
     margin-top: 115px;
 }
 
+.header-h1, .header-proposition {
+    margin: revert;
+}  
+
 .header-button {
     display: flex;
     width: 225px;
@@ -208,12 +203,21 @@ div .nav__social__network :hover {
     align-items: center;
 }
 
-.header-button:hover {
-    background-color: var(--button-color-hover);
-    color: var(--button-a-color-hover);
-    transition: all 0.3s ease;
+.header-button:focus {
+    margin-right: 47px;
+    background: #d0df56;
+    width: 195px;
+    cursor: pointer;    
 }
 
+.header-button:active {
+    margin-right: 47px;
+    background: #50aab2;
+    width: 195px;
+    cursor: pointer; 
+    color: #e8eeef;   
+}
+ 
 .nav-header, .nav__social__network, .header__menu {
     display: flex;
     align-items: center;
@@ -232,7 +236,10 @@ div .nav__social__network :hover {
 
 .header-proposition {
     margin-top: 47px;
-    margin-bottom: 67px;
+}
+
+.header-button {
+    margin-top: 38px;
 }
 
 .nav-link-page {
@@ -249,6 +256,13 @@ div .nav__social__network :hover {
 
 .nav-link-page a:hover {
     color: #062a4d;
+    font-weight: bold;
+}
+
+.nav-header {
+    padding: 30px 10px 30px 10px;
+    margin: 0px auto;
+    width: fit-content;
 }
 
 .head-logo-style {
@@ -257,14 +271,70 @@ div .nav__social__network :hover {
     padding-right: 40px;
 }
 
+.fb__header,
+.inst__header,
+.tw__header,
+.youtube__header {
+    background-color: #d0df56;
+    width: 32px;
+    height: 32px;
+    margin: 5px;
+}
+
+.header-icon-link {
+    height: 30px;
+    display: flex;
+    margin: auto;
+}
+
+.head-facebook-img {
+    width: 12px;
+    display: flex;
+    margin: auto;
+}
+
+.head-instagram-img {
+    width: 16px;
+    height: 16px;
+    display: flex;
+    margin: auto;
+}
+
+.head-twitter-img {
+    width: 16px;
+    display: flex;
+    margin: auto;
+}
+
+.head-youtube-img {
+    width: 18px;
+    height: 30px;
+    display: flex;
+    margin: auto;
+}
+
+.head-picter {
+    width: 100%;
+    padding-left: 30px;
+}
+
 .head-logo-img {
     width: 202px;
     height: auto;
 }
 
+
 .shift-header {
     color: #50aab2
 }
+
+.head-picter-style {
+    background: url("../img/title-picter.png") center no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0px 30px 15px 30px;
+    background-size: cover; 
+}  
 
 .header-name{
     font-size: 60px;
@@ -274,21 +344,7 @@ div .nav__social__network :hover {
     display: none;
 }
 
-#nav__social__network__burger {
-    display: none;
-}
-
 @media (max-width: 1280px) {
-    #heder-menu-toggle:checked ~ nav div ul li#nav__social__network__burger {
-        display: flex;
-        justify-content: center;
-        margin-left: -3%;
-    }
-
-    #heder-menu-toggle:checked ~ nav div ul li#nav__social__network__burger:hover {
-        color: red;
-    }
-    
     .nav-link-page ul li {
         display: list-item;
        list-style: none;
@@ -302,11 +358,17 @@ div .nav__social__network :hover {
         padding: 120px 0 0 0;
     }
 
+    .menu__btn {
+        top: 74px;
+        width: 26px;
+        right: 100px;
+    }
+
     .header__menu {
         position: fixed;
         top: 0;
         left: -3px;
-        width: 101%;
+        width: 100%;
         height: 100%;
         background-color: #e8eeef;
     }
@@ -332,7 +394,7 @@ div .nav__social__network :hover {
         display: block;
     }
     .menu__btn {
-        top: 31px;
+        top: 45px;
         width: 26px;
         right: 100px;
     }
@@ -345,10 +407,6 @@ div .nav__social__network :hover {
 @media (max-width: 767px) {
     bady.all_pages {
         overflow: hidden;
-    }
-
-    .header-text-style {
-        margin-top: -37px;
     }
 }
 
@@ -364,20 +422,11 @@ div .nav__social__network :hover {
     }
 
     .header-text-style {
-        margin: -50px 0 0 30px;
+        margin: 110px 0 0 30px;
         width: 60%;
     }
 
     .header-name {
         font-size: 45px;
-    }
-}
-
-@media (max-width: 340px) {
-    .nav-header {
-        padding: 30px 10px 30px 0px;
-    }
-    .head-logo-img {
-        width: 190px;
     }
 }

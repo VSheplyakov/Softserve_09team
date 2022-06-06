@@ -55,25 +55,3 @@
     width: 100%;
     margin: auto;
 }
-
-.back {
-    background-color: #062a4d;
-    width: 32px;
-    height: 32px;
-    display: flex;
-    border-radius: 0%;
-    margin-top: 30%;
-    margin-left: 10px;
-    color: white;
-}
-
-.forward {
-    background-color: #062a4d;
-    width: 32px;
-    height: 32px;
-    display: flex;
-    border-radius: 0%;
-    margin-top: 30%;
-    margin-left: 10px;
-    color: white;
-}

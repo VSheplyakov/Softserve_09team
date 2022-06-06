@@ -1,6 +1,12 @@
-.bot-content {
+bot-content {
+    margin: auto;
+    width: auto;
+    height: 510px;
+    box-sizing: border-box;
     background-image: url(../img/mar4.svg);
-    background-color: rgba(80, 170, 178, 0.98);  
+    background-color: rgba(80, 170, 178, 0.98);
+    margin: 0px 30px;
+    
 }
 
 .main-bot-content {
