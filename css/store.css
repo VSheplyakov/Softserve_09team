@@ -1,3 +1,21 @@
+.button-store {
+    display: flex;
+    width: 157px;
+    height: 60px;
+    background-color: var(--button-color);
+    font-size: 12px;
+    color: var(--button-a-color);
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-store:hover {
+    background-color: var(--caption-color);
+}
+
 .top-content {
     max-width: 100%;
     padding-top: 60px;
@@ -25,51 +43,61 @@
     padding-right: 15px;
 }
 
-.bot-wrapper {
+.carousel-doors {
     padding: 60px 0px;
     display: flex;
+    padding-left: 130px;
+    padding-right: 130px;
+    max-width: 100%;
+
 }
 
 .text-conteiner {
     padding-top: 20px;
 }
 
-.grid {
+#grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 @media (max-width: 990px) and (min-width: 760px) {
-    .grid {
+    #grid {
         display: grid;
-        grid-template-areas:
-            "a b"
-            "c c";
-        width: 100%;
-        grid-template-columns: auto;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 0px;
     }
-    .grid-wrapper:nth-child(1) {
-        grid-area: a;
+
+    .bot-wrapper {
+        padding: 60px 0px;
+        display: flex;
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 100%;
+
     }
-    .grid-wrapper:nth-child(2) {
-        grid-area: b;
-    }
-    .grid-wrapper:nth-child(3) {
-        grid-area: c;
-        margin: 0 auto;
-        max-width: 50%;
-        margin-top: 20px;
-    }
-    .bot-wrapper{
-        display: block;
-    }
+
 }
 
-
 @media (max-width: 760px) {
-    .grid {
+    .carousel-doors {
+        padding-left: 80px;
+    }
+
+    #grid {
         display: flex;
         flex-direction: column;
+        padding-left: 0px;
+
+    }
+
+    .bot-wrapper {
+        padding: 60px 0px;
+        display: flex;
+        padding-left: 0px;
+        padding-right: 0px;
+        max-width: 100%;
 
     }
 
@@ -81,11 +109,12 @@
         font-size: 22px;
         font-weight: 500;
     }
+
     #picture-about-conteiner-02 {
         font-size: 22px;
         font-weight: 500;
     }
-    
+
     #picture-about-conteiner-03 {
         font-size: 22px;
         font-weight: 500;
@@ -95,10 +124,12 @@
         font-size: 22px;
         font-weight: 500;
     }
+
     #number-color-conteiner-02 {
         font-size: 22px;
         font-weight: 500;
     }
+
     #number-color-conteiner-03 {
         font-size: 22px;
         font-weight: 500;
@@ -153,3 +184,20 @@
     line-height: 36px;
     font-weight: 700;
 }
+
+
+.button_forward__hp {
+    position: relative;
+    left: 20px;
+}
+
+.slide_button {
+    font-size: 50px;
+    color: #7CBDE3;
+    background-color: white;
+    font-weight: 600;
+    position: relative;
+    bottom: 35px;
+    right: 10px;
+}
+
