@@ -7,7 +7,6 @@
 
 
 .gallery {
-    /*margin-top: 20px;*/
     background-color: var(--content-block-color);
     background-image: url('/img/gallery-background.svg');
     text-align: center;
@@ -54,4 +53,50 @@
     padding-right: 30px;
     width: 100%;
     margin: auto;
+}
+
+.back {
+    background-color: var(--subTitle-color);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    border-radius: 50%;
+    margin-top: 30%;
+    margin-left: 10px;
+    color: var(--content-block-color);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.forward {
+    background-color: var(--subTitle-color);
+    width: 32px;
+    height: 32px;
+    display: flex;
+    border-radius: 50%;
+    margin-top: 30%;
+    margin-right: 10px;
+    color: var(--content-block-color);
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.back:hover {
+    background-color: var(--title-color);
+}
+
+.forward:hover {
+    background-color: var(--title-color);
+}
+
+.back-button {
+    display: flex;
+    align-items: center;    
+}
+
+.forward-button {
+    display: flex;
+    align-items: center;
 }

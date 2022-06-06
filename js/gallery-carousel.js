@@ -1,9 +1,9 @@
 (function(){
     const slides = [
-        '<div class="slides"><img src="img/picture-example1.png" alt="Brown door"</div>',
-        '<div class="slides"><img src="img/picture-example2.png" alt="White double door"</div>',
-        '<div class="slides"><img src="img/picture-example3.png" alt="White door"</div>',
-    ]
+        '<div class="slides"><a href=""><img src="img/picture-example1.png" alt="Brown door"></a></div>',
+        '<div class="slides"><a href=""><img src="img/picture-example2.png" alt="White double door"></a></div>',
+        '<div class="slides"><a href=""><img src="img/picture-example3.png" alt="White door"></a></div>',
+    ];
 
     let currentSlide = 0;
 
@@ -22,14 +22,14 @@
         renderCarousel();
     }
 
-    //setInterval(nextSlide, 3000);
+    setInterval(nextSlide, 3000);
     
     renderCarousel();
 
     const btnForward = document.querySelector('.gallery-carousel .forward');
-    btnForward.addEventListener('click', nextSlide)
+    btnForward.addEventListener('click', nextSlide);
 
     const btnBack = document.querySelector('.gallery-carousel .back');
-    btnBack.addEventListener('click', prevSlide)
+    btnBack.addEventListener('click', prevSlide);
 
 })();
