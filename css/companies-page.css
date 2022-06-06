@@ -64,17 +64,6 @@
   max-width: 670px;
 }
 
-#myBtn-companies-logo {
-  background-color: #383738;
-  color: white;
-  padding: 12px 16px;
-  font-size: 18px;
-  font-weight: bold;
-  border: none;
-  cursor: pointer;
-  width: 180px;
-}
-
 .modal-companies-logo {
   display: none;
   position: fixed;
