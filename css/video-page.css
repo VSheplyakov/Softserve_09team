@@ -85,20 +85,6 @@
   }
 }
 
-.btn-forvard-video-page,
-.btn-back-video-page {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 35px;
-  height: 35px;
-  background-color: #3a4750;
-  color: white;
-  font-size: 30px;
-  border-radius: 100%;
-  cursor: pointer;
-}
-
 .btn-forvard-video-page:hover,
 .btn-back-video-page:hover {
   background-color: #062a4d;

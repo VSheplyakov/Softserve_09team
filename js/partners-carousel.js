@@ -23,12 +23,7 @@
         if (window.innerWidth >= 1200) {
           const fourthSlide =
             thirdSlide + 1 >= slides.length ? 0 : thirdSlide + 1;
-          slideContainer.innerHTML += slides[fourthSlide];
-          if (window.innerWidth >= 1600) {
-            const fifthSlide =
-              fourthSlide + 1 >= slides.length ? 0 : fourthSlide + 1;
-            slideContainer.innerHTML += slides[fifthSlide];
-          }
+          slideContainer.innerHTML += slides[fourthSlide];          
         }
       }
     }
