@@ -82,13 +82,13 @@
   margin: auto;
   padding: 0;
   width: 100%;
-  -webkit-animation-name: animatetop;
-  -webkit-animation-duration: 0.4s;
+  /* -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.4s; */
   animation-name: animatetop;
   animation-duration: 0.4s;
 }
 
-@-webkit-keyframes animatetop {
+/* @-webkit-keyframes animatetop {
   from {
     top: -300px;
     opacity: 0;
@@ -97,7 +97,7 @@
     top: 0;
     opacity: 1;
   }
-}
+} */
 
 @keyframes animatetop {
   from {
@@ -120,7 +120,7 @@
 
 .close:hover,
 .close:focus {
-  color: gray;
+  color: #7a7979cc;
   text-decoration: none;
   cursor: pointer;
 }
@@ -139,15 +139,17 @@
 .btn-back-companies-slide {
   width: 40px;
   height: 110px;
-  background-color: #3a4750;
   color: white;
   font-size: 60px;
   cursor: pointer;
+  background-color: #000000;
+  background-color: rgba(0, 0, 0, 0.01);
+  border: 0;
 }
 
 .btn-forvard-companies-slide:hover,
 .btn-back-companies-slide:hover {
-  background-color: #000000cc;
+  color: #7a7979cc;
   transition: all 0.3s ease;
 }
 
