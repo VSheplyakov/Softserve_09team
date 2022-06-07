@@ -11,7 +11,10 @@
     .inside__about__us {
         flex-direction: column;
         justify-items: flex-start;
-
+        padding-right: 25px;
+    }
+    h1 {
+        font-size: 33px;
     }
 }
 
