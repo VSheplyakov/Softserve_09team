@@ -13,7 +13,7 @@
         slideConteiner.innerHTML = slides[currentSlide];
         if (window.innerWidth >= 600) {
             const secondSlide = currentSlide + 1 >= slides.length ? 0 : currentSlide + 1;
-            slideConteinпшеer.innerHTML += slides[secondSlide];
+            slideConteiner.innerHTML += slides[secondSlide];
             if (window.innerWidth >= 900) {
                 const thirdSlide = secondSlide + 1 >= slides.length ? 0 : secondSlide + 1;
                 slideConteiner.innerHTML += slides[thirdSlide];
