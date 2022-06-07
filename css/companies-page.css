@@ -4,6 +4,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   margin-top: 5px;
+  background-position-x: 25%;
 }
 
 .companies__page-name {
