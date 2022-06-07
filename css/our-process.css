@@ -35,7 +35,9 @@
 }
 
 .grid {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
 }
 
 @media (max-width: 990px) and (min-width: 760px) {
@@ -45,6 +47,7 @@
             "a b"
             "c c";
         width: 100%;
+        grid-template-columns: auto;
     }
     .grid-wrapper:nth-child(1) {
         grid-area: a;
