@@ -4,7 +4,7 @@
 }
 .service_main_container{
     margin: 20px 20px;
-    background-image: url('..img/service_background.svg');
+    background-image: url(../img/service_background.svg);
     background-color: rgb(245, 248, 245);
     padding: 50px 0;
 }

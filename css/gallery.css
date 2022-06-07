@@ -8,7 +8,7 @@
 
 .gallery {
     background-color: var(--content-block-color);
-    background-image: url('../img/gallery-background.svg');
+    background-image: url(../img/gallery-background.svg);
     text-align: center;
 }
 
