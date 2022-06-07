@@ -342,12 +342,6 @@ div .nav__social__network :hover {
         width: 60%;
     }
 }
-
-@media (max-width: 767px) {
-    body.all_pages {
-        overflow: hidden;
-    }
-
     .header-text-style {
         margin-top: -37px;
     }
