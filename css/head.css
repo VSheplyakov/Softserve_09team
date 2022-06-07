@@ -192,7 +192,7 @@ div .nav__social__network :hover {
     background-size: cover;
     background-repeat: no-repeat;
     margin-top: 115px;
-    background-position-x: right;
+    background-position-x: 50%;
 }
 
 .header-button {
@@ -344,7 +344,7 @@ div .nav__social__network :hover {
 }
 
 @media (max-width: 767px) {
-    bady.all_pages {
+    body.all_pages {
         overflow: hidden;
     }
 
