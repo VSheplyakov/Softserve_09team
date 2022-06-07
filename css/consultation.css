@@ -52,22 +52,36 @@ bot-content {
 }
 
 .consultation-btn {
+    display: flex;
+    width: 160px;
+    height: 60px;
+    background-color: var(--button-color);
+    font-size: 12px;
+    color: var(--button-a-color);
+    font-weight: 600;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    justify-content: center;
+    align-items: center;
     cursor: pointer;
     background-color: rgb(208, 223, 86);
-    height: 50px;
-    width: 160px;
+    /* height: 50px;
+    width: 160px;*/
     letter-spacing: 1.1px;
     text-transform: uppercase;
-    font-family: Rubik, sans-serif;
+    /* font-family: Rubik, sans-serif;
     border: none;
     font-size: 11px;
     font-weight: bolder;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: center; */
 }
 
 .consultation-btn:hover {
     color: white;
     background-color: rgb(6, 42, 77);
+    /* background-color: var(--button-color-hover);
+    color: var(--button-a-color-hover); */
+    transition: all 0.3s ease;
 }

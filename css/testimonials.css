@@ -68,4 +68,5 @@
 .testimonials_button:hover {
     background-color: var(--button-color-hover);
     color: var(--button-a-color-hover);
+    transition: all 0.3s ease;
 }
