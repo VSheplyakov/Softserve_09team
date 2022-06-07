@@ -16,7 +16,7 @@
 }
 
 .pricing_subtitle {
-  color: var(--subtitle-color);
+  color: var(--subTitle-color);
   font-size: 19px;
   margin-bottom: 80px;
 }
