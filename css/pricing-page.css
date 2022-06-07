@@ -16,7 +16,7 @@
 }
 
 .pricing_subtitle {
-  color: var(--subTitle-color);
+  color: var(--subtitle-color);
   font-size: 19px;
   margin-bottom: 80px;
 }
@@ -48,7 +48,7 @@
 
 .pricing_grid-icon {
   border-radius: 100%;
-  background-color: var(--pricing-page-grid-icon-background);
+  background-color:#dae1e2;
   grid-area: 1 / 1 / 3 / 2;
 }
 
